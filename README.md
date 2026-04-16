@@ -22,7 +22,24 @@ Andmebaasidega seotud SQL kood ja konspektid
 - Tabeli loomine
 
 ```
+CREATE DATABASE Voronin_baas;
 
+--ab kustutamine
+DROP DATABASE EvgeniFunkt;
+
+use Voronin_baas
+--tabeli loomine
+CREATE TABLE opilane(
+opilaneID int Primary Key identity(1,1),--automaataelt täidab numbritega,
+eesnimi varchar(25),
+perenimi varchar(30) NOT NULL,
+synniaeg DATE,
+stip bit,
+mobiil varchar(13),
+aadress TEXT,
+keskmineHinne decimal(2,1) ); --(2--kokku, 1- peale komat)
+
+SELECT * FROM opilane;
 ```
 - Andmete sisestamine tabelisse
 ```
