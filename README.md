@@ -72,5 +72,36 @@ VALUES ('N','V1', 4.2),
 ('N','V3', 5.0);
 ```
 
+Seosed (tabelivahelised seosed)
+- üks-ühele (nt mees-naine)
+
+- mitu-mitmele (nt õpilased - õpetajad
+- 
+## PIIRANGUD
+constraint- ограничения(5)
+1. PRIMARY KEY
+2. FOREIGN KEY
+3. CHECK
+4. NOT NULL
+5. UNIQUE
+
+``` SQL
+--FOREIGN KEY
+CREATE TABLE oprtamine(
+opetamineID int PRIMARY KEY identity(1,1),
+kuupaev DATE,
+oppeaine varchar(30),
+opilaneID int,
+FOREIGN KEY (opilaneID) REFERENCES opilane(opilaneID),
+hinne int CHECK(hinne<=5));
+
+SELECT * FROM opetamine;
+SELECT * FROM opilane;
+--täidame tabeli
+INSERT INTO opetamine
+VALUES( '2026-04-16','andmebaasid', 4, 5)
+```
+
+
 
 
