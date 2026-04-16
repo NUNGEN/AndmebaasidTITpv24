@@ -41,6 +41,8 @@ keskmineHinne decimal(2,1) ); --(2--kokku, 1- peale komat)
 
 SELECT * FROM opilane;
 ```
+<img width="626" height="574" alt="{3808D543-0B8B-4CD6-9D66-E5B5D4302C23}" src="https://github.com/user-attachments/assets/446a02ff-c84b-4db6-bb5a-32ddd815a384" />
+
 - Andmete sisestamine tabelisse
 ```
 CREATE DATABASE Voronin_baas;
