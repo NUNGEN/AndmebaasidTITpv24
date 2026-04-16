@@ -18,6 +18,7 @@ Andmebaasidega seotud SQL kood ja konspektid
 4. Kuupäevad: date, time, datetime
 ```
 ## SQL - structure Query Language - struktureeritud päringu keel
+<img width="1916" height="1000" alt="{A631E4D7-7889-42F2-9B56-8A681837CD0B}" src="https://github.com/user-attachments/assets/c71aef4f-6f4a-426c-bd44-db09b00be04a" />
 - Tabeli loomine
 ```
 
@@ -26,3 +27,6 @@ Andmebaasidega seotud SQL kood ja konspektid
 ```
 
 ```
+
+
+
