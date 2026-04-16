@@ -43,7 +43,33 @@ SELECT * FROM opilane;
 ```
 - Andmete sisestamine tabelisse
 ```
+CREATE DATABASE Voronin_baas;
 
+--ab kustutamine
+DROP DATABASE EvgeniFunkt;
+
+use Voronin_baas
+--tabeli loomine
+CREATE TABLE opilane(
+opilaneID int Primary Key identity(1,1),--automaataelt täidab numbritega,
+eesnimi varchar(25),
+perenimi varchar(30) NOT NULL,
+synniaeg DATE,
+stip bit,
+mobiil varchar(13),
+aadress TEXT,
+keskmineHinne decimal(2,1) ); --(2--kokku, 1- peale komat)
+
+SELECT * FROM opilane;
+
+--tabeli täitmine
+INSERT INTO opilane
+VALUES ('Nikita','Voronin','2000-11-2',1,'+325689','Tallinn', 4.5);
+
+INSERT INTO opilane(perenimi, eesnimi, keskmineHinne),
+VALUES ('N','V1', 4.2),
+('N','V2', 4.2),
+('N','V3', 5.0);
 ```
 
 
