@@ -85,7 +85,7 @@ Seosed (tabelivahelised seosed)
 
 - mitu-mitmele (nt õpilased - õpetajad
 - 
-## PIIRANGUD
+## PIRANGUD
 constraint- ограничения(5)
 1. PRIMARY KEY
 2. FOREIGN KEY
