@@ -4,6 +4,7 @@ Andmebaasidega seotud SQL kood ja konspektid
 ## Sisukord
 -[Põhimõisted](#põhimõisted)
 -[Andmetüübid](#andmetüübid)
+-[SQL - structure Query Language - struktureeritud päringu keel](SQL - structure Query Language - struktureeritud päringu keel)
 -[PIRANGUD](#pirangud)
 ## Põhimõisted
 - andmebaas - struktureeritud andmete kogum
