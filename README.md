@@ -9,6 +9,7 @@ Andmebaasidega seotud SQL kood ja konspektid
 - primaarne võti - PRIMARY KEY - veerg(tavaliselt id nimega), unikaalne identefikaator, mis eristab iga kirje.
 - välisvõti - FOREIGN KEY -FK- veerg, mis loob seos teise tabeli primaarvõtmega.
 - päring -QUERY -запрос
+-
 
 ## Andmetüübid
 ```
@@ -103,6 +104,41 @@ SELECT * FROM opilane;
 INSERT INTO opetamine
 VALUES( '2026-04-16','andmebaasid', 4, 5)
 ```
+## ALTER TABLE
+-tabeli strukturi muutminr (struktuur: veerudenimed, andmetüübid, piirangud)
+1. uue veeru lisamine
+
+2. 
+```sql
+DROP Database NVbaas;
+CREATE DATABASE NVtitpv24;
+
+USE NVtitpv24
+CREATE TABLE opilane(
+opilaneID int Primary Key identity(1,1),
+eesnimi varchar(25),
+perenimi varchar(30) NOT NULL,
+synniaeg DATE,
+stip bit,
+mobiil varchar(13),
+aadress TEXT,
+keskmineHinne decimal(2,1) );
+
+SELECT * FROM opilane;
+
+--uue veeru lisamine
+ALTER TABLE opilane ADD isikukood varchar(11);
+
+--veeru kustutamine
+ALTER TABLE opilane DROP COLUMN isikukood;
+
+--andmetüübi muutmine varchar(11)-->char(11)
+ALTER TABLE opilane ALTER COLUMN isikukood char(11);
+--sisseehitatud protseduur, mis näitab tabeli info
+sp_help opilane;
+```
+<img width="1107" height="782" alt="{5132355A-D393-4E2E-B767-08F124FF1090}" src="https://github.com/user-attachments/assets/24e85f29-4874-4049-980f-e22b6c186ce9" />
+
 
 <img width="1562" height="635" alt="{2D7DFCDA-9A79-43A0-9C65-D18AA53167DD}" src="https://github.com/user-attachments/assets/3812afee-ac9c-423d-9341-c941d9507999" />
 
