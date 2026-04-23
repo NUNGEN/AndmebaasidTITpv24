@@ -137,6 +137,62 @@ ALTER TABLE opilane ALTER COLUMN isikukood char(11);
 --sisseehitatud protseduur, mis näitab tabeli info
 sp_help opilane;
 ```
+```
+DROP Database NVbaas;
+CREATE DATABASE NVtitpv24;
+
+USE NVtitpv24
+CREATE TABLE opilane(
+opilaneID int Primary Key identity(1,1),
+eesnimi varchar(25),
+perenimi varchar(30) NOT NULL,
+synniaeg DATE,
+stip bit,
+mobiil varchar(13),
+aadress TEXT,
+keskmineHinne decimal(2,1) );
+
+SELECT * FROM opilane;
+
+--uue veeru lisamine
+ALTER TABLE opilane ADD isikukood varchar(11);
+
+--veeru kustutamine
+ALTER TABLE opilane DROP COLUMN isikukood;
+
+--andmetüübi muutmine varchar(11)-->char(11)
+ALTER TABLE opilane ALTER COLUMN isikukood char(11);
+--sisseehitatud protseduur, mis näitab tabeli info
+sp_help opilane;
+
+--piirangute lisamine
+CREATE TABLE ryhm(
+ryhmId int not null,
+ryhmNimi char(10));
+drop table ryhm;
+
+sp_help ryhm;
+
+--PK lisamine
+ALTER TABLE ryhm ADD CONSTRAINT pk_ryhm PRIMARY KEY (ryhmId);
+--UNIQUE lisamine
+ALTER TABLE ryhm ADD CONSTRAINT un_ryhm UNIQUE (ryhmNimi);
+
+--kontrollimiseks täidame tabelit ryhm
+SELECT * FROM ryhm;
+INSERT INTO ryhm (ryhmId, ryhmNimi)
+VALUES(1,'TITpv24');
+
+--lisame Foreign Key - võõrvõti-välisvõti
+ALTER TABLE opilane ADD ryhmId int;
+SELECT * FROM opilane;
+ALTER TABLE opilane ADD CONSTRAINT fk_ryhm
+FOREIGN KEY (ryhmId) REFERENCES ryhm(ryhmId);
+
+--kontrollimiseks- täidame tabeli opilane
+INSERT INTO opilane
+VALUES ('Egor','Artjomov','2002-12-10', 'laanemere','ei_õpi','5667777',21);
+```
 <img width="1107" height="782" alt="{5132355A-D393-4E2E-B767-08F124FF1090}" src="https://github.com/user-attachments/assets/24e85f29-4874-4049-980f-e22b6c186ce9" />
 
 
