@@ -2,7 +2,7 @@
 Andmebaasidega seotud SQL kood ja konspektid
 
 ## Sisukord
--[Põhimõisted](#üohimoisted)
+-[Põhimõisted](#pohimoisted)
 -[Andmetüübid](#andmetüübid)
 -[PIRANGUD](#pirangud)
 ## Põhimõisted
