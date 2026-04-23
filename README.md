@@ -6,6 +6,7 @@ Andmebaasidega seotud SQL kood ja konspektid
 -[Andmetüübid](#andmetüübid)
 -[SQL - structure Query Language - struktureeritud päringu keel](#SQL-structureQueryLanguage-struktureeritudpäringukeel)
 -[PIRANGUD](#pirangud)
+-[AlterTable](#AlterTable)
 ## Põhimõisted
 - andmebaas - struktureeritud andmete kogum
 - tabel = olem -сущность -entity
