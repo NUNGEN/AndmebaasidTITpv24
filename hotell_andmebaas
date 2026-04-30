@@ -104,7 +104,11 @@ CREATE TABLE hosted_at(
 hosted_atID int PRIMARY KEY identity(1,1),
 guestID int,
 occupied_roomID int,
+
+
+
 FOREIGN KEY (guestID) REFERENCES guest (guestID),
 FOREIGN KEY (occupied_roomID) REFERENCES occupied_room(occupied_roomID));
 
 SELECT * FROM hosted_at;
+
