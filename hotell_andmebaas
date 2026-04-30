@@ -1,0 +1,110 @@
+Create database hotellVoronin;
+use hotellVoronin;
+--1. guest
+--2. reservation
+--3. room_type
+--4. room
+--5. reserved_room
+--6. occupied_room
+--7. hosted_at
+
+--1. guest
+CREATE TABLE guest(
+guestID int Primary Key identity(1,1),
+first_name varchar(80),
+last_name varchar(80) Not Null,
+member_since DATE);
+
+SELECT * FROM guest;
+
+INSERT INTO guest
+VALUES('ivan','sereda','2024-11-10');
+VALUES('ivan','gai','2025-04-26');
+VALUES('ivan','drago','2026-07-27');
+
+--2. reservation
+CREATE TABLE reservation(
+reservationID int PRIMARY KEY identity (1,1),
+date_in DATE,
+date_out DATE,
+made_by varchar(20),
+guestID int,
+FOREIGN KEY (guestID) REFERENCES guest(guestID));
+
+SELECT * FROM reservation;
+
+INSERT INTO reservation
+VALUES ('2018-9-11','2020-05-05','admin', 2);
+VALUES ('2020-31-11','2021-03-04','admin', 2);
+VALUES ('2015-9-3','2022-31-12','admin', 2);
+
+--3. room_type
+
+CREATE TABLE room_type(
+room_type_id int primary key identity(1,1),
+description varchar(80),
+max_capacity int
+);
+
+SELECT * FROM room_type;
+
+INSERT INTO room_type
+VALUES('pere_tumba', 7);
+
+-- 4. room
+CREATE TABLE room(
+room_id int primary key identity (1,1),
+number varchar(10),
+name varchar(40),
+status varchar(10),
+smoke bit,
+room_type_id int,
+foreign key (room_type_id) references room_type(room_type_id));
+
+INSERT INTO room
+VALUES('B228','klass','kinnitatud', 1, 0);
+
+SELECT * FROM room_type;
+SELECT * FROM room;
+
+--5. reserved_room
+CREATE TABLE reserved_room(
+reserved_roomID int PRIMARY KEY identity (1,1),
+number_of_rooms int,
+room_typeID int,
+reservationID int,
+status varchar(20),
+FOREIGN KEY (room_typeID) REFERENCES room_type(room_typeID),
+FOREIGN KEY (reservationID) REFERENCES reservation (reservationID));
+
+INSERT INTO reserved_room
+VALUES(3,2,2,'valmis');
+
+SELECT * FROM reserved_room;
+
+--6. occupied_room
+CREATE TABLE occupied_room(
+occupied_roomID int PRIMARY KEY identity(1,1),
+check_in DATE,
+check_out DATE,
+roomID int,
+reservationID int,
+FOREIGN KEY (roomID) REFERENCES room(roomID),
+FOREIGN KEY (reservationID) REFERENCES reservation(reservationID));
+
+INSERT INTO occupied_room
+VALUES('2026-04-30', '2026-05-01', 1, 1);
+VALUES('2026-03-29', '2025-04-30', 1, 1);
+VALUES('2026-02-28', '2024-03-29', 1, 1);
+
+SELECT * FROM occupied_room;
+
+--7. hosted_at
+CREATE TABLE hosted_at(
+hosted_atID int PRIMARY KEY identity(1,1),
+guestID int,
+occupied_roomID int,
+FOREIGN KEY (guestID) REFERENCES guest (guestID),
+FOREIGN KEY (occupied_roomID) REFERENCES occupied_room(occupied_roomID));
+
+SELECT * FROM hosted_at;
