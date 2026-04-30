@@ -1,0 +1,2189 @@
+<!DOCTYPE html>
+<html lang="et" dir="ltr"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <meta name="robots" content="noindex,nofollow,notranslate">
+  <meta name="google" content="notranslate">
+  
+  <link rel="icon" href="http://localhost/phpmyadmin/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="http://localhost/phpmyadmin/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/jquery-ui.css">
+  <link rel="stylesheet" type="text/css" href="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/codemirror.css">
+  <link rel="stylesheet" type="text/css" href="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/show-hint.css">
+  <link rel="stylesheet" type="text/css" href="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/lint.css">
+  <link rel="stylesheet" type="text/css" href="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/theme.css">
+  <title>localhost / 127.0.0.1 / hotellvoronin | phpMyAdmin 5.2.1</title>
+    <script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/jquery.min.js"></script>
+  <script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/jquery-migrate.min.js"></script>
+  <script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/sprintf.js"></script>
+  <script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/ajax.js"></script>
+  <script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/keyhandler.js"></script>
+  <script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/jquery-ui.min.js"></script>
+  <script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/name-conflict-fixes.js"></script>
+  <script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/bootstrap.bundle.min.js"></script>
+  <script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/js.cookie.js"></script>
+  <script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/jquery.validate.min.js"></script>
+  <script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/jquery-ui-timepicker-addon.js"></script>
+  <script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/jquery.debounce-1.0.6.js"></script>
+  <script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/menu_resizer.js"></script>
+  <script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/cross_framing_protection.js"></script>
+  <script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/messages.php"></script>
+  <script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/config.js"></script>
+  <script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/doclinks.js"></script>
+  <script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/functions.js"></script>
+  <script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/navigation.js"></script>
+  <script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/indexes.js"></script>
+  <script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/common.js"></script>
+  <script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/page_settings.js"></script>
+  <script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/home.js"></script>
+  <script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/codemirror.js"></script>
+  <script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/sql_002.js"></script>
+  <script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/runmode.js"></script>
+  <script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/show-hint.js"></script>
+  <script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/sql-hint.js"></script>
+  <script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/lint.js"></script>
+  <script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/sql-lint.js"></script>
+  <script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/tracekit.js"></script>
+  <script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/error_report.js"></script>
+  <script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/drag_drop_import.js"></script>
+  <script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/shortcuts_handler.js"></script>
+  <script data-cfasync="false" type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/console.js"></script>
+
+<script data-cfasync="false" type="text/javascript">
+// <![CDATA[
+CommonParams.setAll({common_query:"lang=et",opendb_url:"index.php?route=/database/structure&lang=et",lang:"et",server:"1",table:"",db:"",token:"2d7544252129507c3c4f6e55782c316d",text_dir:"ltr",LimitChars:"50",pftext:"",confirm:true,LoginCookieValidity:"1440",session_gc_maxlifetime:"1440",logged_in:true,is_https:false,rootPath:"/phpmyadmin/",arg_separator:"&",version:"5.2.1",auth_type:"config",user:"root"});
+var firstDayOfCalendar = '0';
+var themeImagePath = '.\/themes\/pmahomme\/img\/';
+var mysqlDocTemplate = '.\/url.php\u003Furl\u003Dhttps\u00253A\u00252F\u00252Fdev.mysql.com\u00252Fdoc\u00252Frefman\u00252F8.0\u00252Fen\u00252F\u002525s.html';
+var maxInputVars = 1000;
+
+if ($.datepicker) {
+  $.datepicker.regional[''].closeText = 'Valmis';
+  $.datepicker.regional[''].prevText = 'Eelmine';
+  $.datepicker.regional[''].nextText = 'J\u00E4rgmine';
+  $.datepicker.regional[''].currentText = 'T\u00E4na';
+  $.datepicker.regional[''].monthNames = [
+    'Jaanuar',
+    'Veebruar',
+    'M\u00E4rts',
+    'Aprill',
+    'Mai',
+    'Juuni',
+    'Juuli',
+    'August',
+    'September',
+    'Oktoober',
+    'November',
+    'Detsember',
+  ];
+  $.datepicker.regional[''].monthNamesShort = [
+    'Jaan',
+    'Veebr',
+    'M\u00E4rts',
+    'Aprill',
+    'Mai',
+    'Juuni',
+    'Juuli',
+    'Aug',
+    'Sept',
+    'Okt',
+    'Nov',
+    'Dets',
+  ];
+  $.datepicker.regional[''].dayNames = [
+    'P\u00FChap\u00E4ev',
+    'Esmasp\u00E4ev',
+    'Teisip\u00E4ev',
+    'Kolmap\u00E4ev',
+    'Neljap\u00E4ev',
+    'Reede',
+    'Laup\u00E4ev',
+  ];
+  $.datepicker.regional[''].dayNamesShort = [
+    'P\u00FCh',
+    'Esm',
+    'Tei',
+    'Kol',
+    'Nel',
+    'Ree',
+    'Lau',
+  ];
+  $.datepicker.regional[''].dayNamesMin = [
+    'P',
+    'E',
+    'T',
+    'K',
+    'N',
+    'R',
+    'L',
+  ];
+  $.datepicker.regional[''].weekHeader = 'N\u00E4d';
+  $.datepicker.regional[''].showMonthAfterYear = false;
+  $.datepicker.regional[''].yearSuffix = 'puudub';
+  $.extend($.datepicker._defaults, $.datepicker.regional['']);
+}
+
+if ($.timepicker) {
+  $.timepicker.regional[''].timeText = 'Aeg';
+  $.timepicker.regional[''].hourText = 'Tund';
+  $.timepicker.regional[''].minuteText = 'Minut';
+  $.timepicker.regional[''].secondText = 'Sekund';
+  $.extend($.timepicker._defaults, $.timepicker.regional['']);
+}
+
+function extendingValidatorMessages () {
+  $.extend($.validator.messages, {
+    required: 'See\u0020v\u00E4li\u0020on\u0020kohustuslik',
+    remote: 'Palun\u0020paranda\u0020see\u0020v\u00E4li',
+    email: 'Palun\u0020sisesta\u0020korrektne\u0020e\u002Dposti\u0020aadress',
+    url: 'Palun\u0020sisesta\u0020korrektne\u0020URL',
+    date: 'Palun\u0020sisesta\u0020korrektne\u0020kuup\u00E4ev',
+    dateISO: 'Palun\u0020sisesta\u0020korrektne\u0020kuup\u00E4ev\u0020\u0028ISO\u0020vorming\u0029',
+    number: 'Palun\u0020sisesta\u0020korrektne\u0020number',
+    creditcard: 'Palun\u0020sisesta\u0020korrektne\u0020krediitkaardi\u0020number',
+    digits: 'Palun\u0020sisesta\u0020ainult\u0020numbrid',
+    equalTo: 'Palun\u0020sisesta\u0020sama\u0020v\u00E4\u00E4rtus\u0020uuesti',
+    maxlength: $.validator.format('Palun\u0020sisesta\u0020kuni\u0020\u007B0\u007D\u0020m\u00E4rki'),
+    minlength: $.validator.format('Palun\u0020sisesta\u0020v\u00E4hemalt\u0020\u007B0\u007D\u0020m\u00E4rki'),
+    rangelength: $.validator.format('Palun\u0020sisesta\u0020v\u00E4\u00E4rtus\u0020pikkusega\u0020\u007B0\u007D\u0020kuni\u0020\u007B1\u007D\u0020t\u00E4hte'),
+    range: $.validator.format('Palun\u0020sisesta\u0020v\u00E4\u00E4rtus\u0020vahemikust\u0020\u007B0\u007D\u0020kuni\u0020\u007B1\u007D'),
+    max: $.validator.format('Palun\u0020sisesta\u0020v\u00E4\u00E4rtus,\u0020mis\u0020on\u0020v\u00E4iksem\u0020kui\u0020v\u00F5i\u0020v\u00F5rdne\u0020\u007B0\u007D'),
+    min: $.validator.format('Palun\u0020sisesta\u0020v\u00E4\u00E4rtus,\u0020mis\u0020on\u0020suurem\u0020kui\u0020v\u00F5i\u0020v\u00F5rdne\u0020\u007B0\u007D'),
+    validationFunctionForDateTime: $.validator.format('Palun\u0020sisesta\u0020korrektne\u0020kuup\u00E4ev\u0020v\u00F5i\u0020kellaaeg'),
+    validationFunctionForHex: $.validator.format('Palun\u0020sisesta\u0020korrektne\u002016\u002Dnd\u0020v\u00E4\u00E4rtus'),
+    validationFunctionForMd5: $.validator.format('See\u0020veerg\u0020ei\u0020saa\u0020sisaldada\u002032\u0020m\u00E4rgilist\u0020v\u00E4\u00E4rtust'),
+    validationFunctionForAesDesEncrypt: $.validator.format('Need\u0020funktsioonid\u0020on\u0020m\u00F5eldud\u0020binaartulemusele.\u0020Vastur\u00E4\u00E4kivate\u0020tulemuste\u0020v\u00E4ltimiseks\u0020peaksid\u0020neid\u0020salvestama\u0020BINARY,\u0020VARBINARY\u0020v\u00F5i\u0020BLOB\u0020t\u00FC\u00FCpi\u0020veerus.')
+  });
+}
+
+ConsoleEnterExecutes=false
+
+AJAX.scriptHandler
+  .add('vendor/jquery/jquery.min.js', 0)
+  .add('vendor/jquery/jquery-migrate.min.js', 0)
+  .add('vendor/sprintf.js', 1)
+  .add('ajax.js', 0)
+  .add('keyhandler.js', 1)
+  .add('vendor/jquery/jquery-ui.min.js', 0)
+  .add('name-conflict-fixes.js', 1)
+  .add('vendor/bootstrap/bootstrap.bundle.min.js', 1)
+  .add('vendor/js.cookie.js', 1)
+  .add('vendor/jquery/jquery.validate.min.js', 0)
+  .add('vendor/jquery/jquery-ui-timepicker-addon.js', 0)
+  .add('vendor/jquery/jquery.debounce-1.0.6.js', 0)
+  .add('menu_resizer.js', 1)
+  .add('cross_framing_protection.js', 0)
+  .add('messages.php', 0)
+  .add('config.js', 1)
+  .add('doclinks.js', 1)
+  .add('functions.js', 1)
+  .add('navigation.js', 1)
+  .add('indexes.js', 1)
+  .add('common.js', 1)
+  .add('page_settings.js', 1)
+  .add('home.js', 1)
+  .add('vendor/codemirror/lib/codemirror.js', 0)
+  .add('vendor/codemirror/mode/sql/sql.js', 0)
+  .add('vendor/codemirror/addon/runmode/runmode.js', 0)
+  .add('vendor/codemirror/addon/hint/show-hint.js', 0)
+  .add('vendor/codemirror/addon/hint/sql-hint.js', 0)
+  .add('vendor/codemirror/addon/lint/lint.js', 0)
+  .add('codemirror/addon/lint/sql-lint.js', 0)
+  .add('vendor/tracekit.js', 1)
+  .add('error_report.js', 1)
+  .add('drag_drop_import.js', 1)
+  .add('shortcuts_handler.js', 1)
+  .add('console.js', 1)
+;
+$(function() {
+        AJAX.fireOnload('vendor/sprintf.js');
+        AJAX.fireOnload('keyhandler.js');
+        AJAX.fireOnload('name-conflict-fixes.js');
+      AJAX.fireOnload('vendor/bootstrap/bootstrap.bundle.min.js');
+      AJAX.fireOnload('vendor/js.cookie.js');
+            AJAX.fireOnload('menu_resizer.js');
+          AJAX.fireOnload('config.js');
+      AJAX.fireOnload('doclinks.js');
+      AJAX.fireOnload('functions.js');
+      AJAX.fireOnload('navigation.js');
+      AJAX.fireOnload('indexes.js');
+      AJAX.fireOnload('common.js');
+      AJAX.fireOnload('page_settings.js');
+      AJAX.fireOnload('home.js');
+                    AJAX.fireOnload('vendor/tracekit.js');
+      AJAX.fireOnload('error_report.js');
+      AJAX.fireOnload('drag_drop_import.js');
+      AJAX.fireOnload('shortcuts_handler.js');
+      AJAX.fireOnload('console.js');
+  });
+// ]]>
+</script>
+
+  <noscript><style>html{display:block}</style></noscript>
+<script type="text/javascript" data-name="TokenSigning" data-by="Web-eID extension">(function pageScript() {
+        let hasDeprecationWarningDisplayed = false;
+        const eidPromises = {};
+        window.addEventListener("message", function (event) {
+            if (event.source !== window)
+                return;
+            if (event.data.src && (event.data.src === "background.js")) {
+                console.log("Page received: ");
+                console.log(event.data);
+                if (event.data.nonce) {
+                    const p = eidPromises[event.data.nonce];
+                    if (event.data.result === "ok") {
+                        if (event.data.signature !== undefined) {
+                            p.resolve({ hex: event.data.signature });
+                        }
+                        else if (event.data.version !== undefined) {
+                            p.resolve(event.data.extension + "/" + event.data.version);
+                        }
+                        else if (event.data.cert !== undefined) {
+                            p.resolve({ hex: event.data.cert });
+                        }
+                        else {
+                            console.log("No idea how to handle message");
+                            console.log(event.data);
+                        }
+                    }
+                    else {
+                        p.reject(new Error(event.data.result));
+                    }
+                    delete eidPromises[event.data.nonce];
+                }
+                else {
+                    console.log("No nonce in event msg");
+                }
+            }
+        }, false);
+        function nonce() {
+            let val = "";
+            const hex = "abcdefghijklmnopqrstuvwxyz0123456789";
+            for (let i = 0; i < 16; i++)
+                val += hex.charAt(Math.floor(Math.random() * hex.length));
+            return val;
+        }
+        function messagePromise(msg) {
+            if (!hasDeprecationWarningDisplayed) {
+                console.warn("TokenSigning API is deprecated. Please consider switching to the new Web-eID library.");
+                hasDeprecationWarningDisplayed = true;
+            }
+            return new Promise(function (resolve, reject) {
+                window.postMessage(msg, "*");
+                eidPromises[msg.nonce] = { resolve, reject };
+            });
+        }
+        window.TokenSigning = class TokenSigning {
+            getCertificate(options) {
+                const msg = {
+                    src: "page.js",
+                    nonce: nonce(),
+                    type: "CERT",
+                    lang: options.lang,
+                    filter: options.filter,
+                };
+                console.log("getCertificate()");
+                return messagePromise(msg);
+            }
+            sign(cert, hash, options) {
+                const msg = {
+                    src: "page.js",
+                    nonce: nonce(),
+                    type: "SIGN",
+                    cert: cert.hex,
+                    hash: hash.hex,
+                    hashtype: hash.type,
+                    lang: options.lang,
+                    info: options.info,
+                };
+                console.log("sign()");
+                return messagePromise(msg);
+            }
+            getVersion() {
+                const msg = {
+                    src: "page.js",
+                    nonce: nonce(),
+                    type: "VERSION",
+                };
+                console.log("getVersion()");
+                return messagePromise(msg);
+            }
+        };
+    })();</script><script type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/databases.js"></script><script type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/makegrid.js"></script><script type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/jquery.uitablefilter.js"></script><script type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/sql.js"></script><script type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/structure.js"></script><script type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/change.js"></script><script type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/database.js"></script><script type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/objects.js"></script><script type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/page.js"></script><script type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/history.js"></script><script type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/move.js"></script><script type="text/javascript" src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/init.js"></script></head>
+<body style="margin-bottom: 21.7833px; margin-left: 240px; padding-top: 59.5667px; z-index: 1;" class="">
+    <div id="pma_navigation" class="d-print-none" data-config-navigation-width="240" style="width: 240px;">
+    <div id="pma_navigation_resizer" style="left: 240px; width: 3px;"></div>
+    <div id="pma_navigation_collapser" style="left: 240px;" title="Peida paneel">←</div>
+    <div id="pma_navigation_content">
+      <div id="pma_navigation_header">
+
+                  <div id="pmalogo">
+                          <a href="http://localhost/phpmyadmin/index.php?lang=et">
+                                      <img id="imgpmalogo" src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/logo_left.png" alt="phpMyAdmin">
+                                      </a>
+                      </div>
+        
+        <div id="navipanellinks">
+          <a href="http://localhost/phpmyadmin/index.php?route=/&amp;lang=et" title="Esileht"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Esileht" alt="Esileht" class="icon ic_b_home"></a>
+
+                      <a class="logout disableAjax" href="http://localhost/phpmyadmin/index.php?route=/logout&amp;lang=et" title="Seansiandmed puuduvad"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Seansiandmed puuduvad" alt="Seansiandmed puuduvad" class="icon ic_s_loggoff"></a>
+          
+          <a href="http://localhost/phpmyadmin/doc/html/index.html" title="phpMyAdmini dokumentatsioon" target="_blank" rel="noopener noreferrer"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="phpMyAdmini dokumentatsioon" alt="phpMyAdmini dokumentatsioon" class="icon ic_b_docs"></a>
+
+          <a href="http://localhost/phpmyadmin/url.php?url=https%3A%2F%2Fmariadb.com%2Fkb%2Fen%2Fdocumentation%2F" title="MariaDB dokumentatsioon" target="_blank" rel="noopener noreferrer"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="MariaDB dokumentatsioon" alt="MariaDB dokumentatsioon" class="icon ic_b_sqlhelp"></a>
+
+          <a id="pma_navigation_settings_icon" href="#" title="Navigeerimispaneeli sätted"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Navigeerimispaneeli sätted" alt="Navigeerimispaneeli sätted" class="icon ic_s_cog"></a>
+
+          <a id="pma_navigation_reload" href="#" title="Lae navigeerimise paneel uuesti"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Lae navigeerimise paneel uuesti" alt="Lae navigeerimise paneel uuesti" class="icon ic_s_reload"></a>
+        </div>
+
+        
+        <img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Laadimine…" alt="Laadimine…" style="visibility: hidden; display:none" class="icon ic_ajax_clock_small throbber">
+      </div>
+      <div id="pma_navigation_tree" class="list_container synced highlight autoexpand" style="height: 527.317px;">
+  <div class="pma_quick_warp">
+    <div class="drop_list"><button title="Hiljutised tabelid" class="drop_button btn">Hiljutised</button><ul id="pma_recent_list"><li class="warp_link">
+            Hiljutisi tabeleid ei ole.    </li>
+</ul></div>    <div class="drop_list"><button title="Lemmikute tabel" class="drop_button btn">Lemmikud</button><ul id="pma_favorite_list"><li class="warp_link">
+            Lemmiktabelid puuduvad.    </li>
+</ul></div>    <div class="clearfloat"></div>
+</div>
+
+
+<div class="clearfloat"></div>
+
+<ul>
+  
+  <!-- CONTROLS START -->
+<li id="navigation_controls_outer" class="">
+    <div id="navigation_controls">
+        <a href="#" id="pma_navigation_collapse" title="Ahenda kõik"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Ahenda kõik" alt="Ahenda kõik" class="icon ic_s_collapseall"></a>
+        <a href="#" id="pma_navigation_sync" title="Kustuta link peapaneeli"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Kustuta link peapaneeli" alt="Kustuta link peapaneeli" class="icon ic_s_link"></a>
+    </div>
+</li>
+<!-- CONTROLS ENDS -->
+
+</ul>
+
+
+
+<div id="pma_navigation_tree_content" style="height: 472.367px;">
+  <ul>
+      <li class="first new_database italics">
+    <div class="block">
+      <i class="first"></i>
+          </div>
+    
+          <div class="block second">
+                  <a href="http://localhost/phpmyadmin/index.php?route=/server/databases"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Uus" alt="Uus" class="icon ic_b_newdb"></a>
+              </div>
+
+              <a class="hover_show_full" href="http://localhost/phpmyadmin/index.php?route=/server/databases" title="Uus">Uus</a>
+          
+    
+
+    
+    <div class="clearfloat"></div>
+
+
+
+  </li>
+  <li class="database">
+    <div class="block">
+      <i></i>
+              <b></b>
+        <a class="expander" href="#">
+          <span class="hide paths_nav" data-apath="cm9vdA==.aG9idXNl" data-vpath="cm9vdA==.aG9idXNl" data-pos="0"></span>
+                    <img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Laienda/ahenda" alt="Laienda/ahenda" class="icon ic_b_plus">
+        </a>
+          </div>
+    
+          <div class="block second">
+                  <a href="http://localhost/phpmyadmin/index.php?route=/database/operations&amp;db=hobuse"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Toimingud andmebaasiga" alt="Toimingud andmebaasiga" class="icon ic_s_db"></a>
+              </div>
+
+              <a class="hover_show_full" href="http://localhost/phpmyadmin/index.php?route=/database/structure&amp;db=hobuse" title="Struktuur">hobuse</a>
+          
+    
+
+    
+    <div class="clearfloat"></div>
+
+
+
+  </li>
+  <li class="database selected">
+    <div class="block">
+      <i></i>
+              <b></b>
+        <a class="expander loaded" href="#">
+          <span class="hide paths_nav" data-apath="cm9vdA==.aG90ZWxsdm9yb25pbg==" data-vpath="cm9vdA==.aG90ZWxsdm9yb25pbg==" data-pos="0"></span>
+                    <img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Laienda/ahenda" alt="Laienda/ahenda" class="icon ic_b_minus" style="">
+        </a>
+          </div>
+    
+          <div class="block second">
+                  <a href="http://localhost/phpmyadmin/index.php?route=/database/operations&amp;db=hotellvoronin"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Toimingud andmebaasiga" alt="Toimingud andmebaasiga" class="icon ic_s_db"></a>
+              </div>
+
+              <a class="hover_show_full" href="http://localhost/phpmyadmin/index.php?route=/database/structure&amp;db=hotellvoronin" title="Struktuur">hotellvoronin</a>
+          
+    
+
+    
+    <div class="clearfloat"></div>
+
+
+
+  
+  <div class="list_container hide" style="display: block;">
+  <ul>
+    
+  </ul>
+
+  </div>
+
+
+</li>
+  <li class="database">
+    <div class="block">
+      <i></i>
+              <b></b>
+        <a class="expander" href="#">
+          <span class="hide paths_nav" data-apath="cm9vdA==.aW5mb3JtYXRpb25fc2NoZW1h" data-vpath="cm9vdA==.aW5mb3JtYXRpb25fc2NoZW1h" data-pos="0"></span>
+                    <img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Laienda/ahenda" alt="Laienda/ahenda" class="icon ic_b_plus">
+        </a>
+          </div>
+    
+          <div class="block second">
+                  <a href="http://localhost/phpmyadmin/index.php?route=/database/operations&amp;db=information_schema"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Toimingud andmebaasiga" alt="Toimingud andmebaasiga" class="icon ic_s_db"></a>
+              </div>
+
+              <a class="hover_show_full" href="http://localhost/phpmyadmin/index.php?route=/database/structure&amp;db=information_schema" title="Struktuur">information_schema</a>
+          
+    
+
+    
+    <div class="clearfloat"></div>
+
+
+
+  </li>
+  <li class="database">
+    <div class="block">
+      <i></i>
+              <b></b>
+        <a class="expander" href="#">
+          <span class="hide paths_nav" data-apath="cm9vdA==.bG9naXRwZTI0YmFhcw==" data-vpath="cm9vdA==.bG9naXRwZTI0YmFhcw==" data-pos="0"></span>
+                    <img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Laienda/ahenda" alt="Laienda/ahenda" class="icon ic_b_plus">
+        </a>
+          </div>
+    
+          <div class="block second">
+                  <a href="http://localhost/phpmyadmin/index.php?route=/database/operations&amp;db=logitpe24baas"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Toimingud andmebaasiga" alt="Toimingud andmebaasiga" class="icon ic_s_db"></a>
+              </div>
+
+              <a class="hover_show_full" href="http://localhost/phpmyadmin/index.php?route=/database/structure&amp;db=logitpe24baas" title="Struktuur">logitpe24baas</a>
+          
+    
+
+    
+    <div class="clearfloat"></div>
+
+
+
+  </li>
+  <li class="database">
+    <div class="block">
+      <i></i>
+              <b></b>
+        <a class="expander" href="#">
+          <span class="hide paths_nav" data-apath="cm9vdA==.bG9naXRwdjI0" data-vpath="cm9vdA==.bG9naXRwdjI0" data-pos="0"></span>
+                    <img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Laienda/ahenda" alt="Laienda/ahenda" class="icon ic_b_plus">
+        </a>
+          </div>
+    
+          <div class="block second">
+                  <a href="http://localhost/phpmyadmin/index.php?route=/database/operations&amp;db=logitpv24"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Toimingud andmebaasiga" alt="Toimingud andmebaasiga" class="icon ic_s_db"></a>
+              </div>
+
+              <a class="hover_show_full" href="http://localhost/phpmyadmin/index.php?route=/database/structure&amp;db=logitpv24" title="Struktuur">logitpv24</a>
+          
+    
+
+    
+    <div class="clearfloat"></div>
+
+
+
+  </li>
+  <li class="database">
+    <div class="block">
+      <i></i>
+              <b></b>
+        <a class="expander" href="#">
+          <span class="hide paths_nav" data-apath="cm9vdA==.bXlzcWw=" data-vpath="cm9vdA==.bXlzcWw=" data-pos="0"></span>
+                    <img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Laienda/ahenda" alt="Laienda/ahenda" class="icon ic_b_plus">
+        </a>
+          </div>
+    
+          <div class="block second">
+                  <a href="http://localhost/phpmyadmin/index.php?route=/database/operations&amp;db=mysql"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Toimingud andmebaasiga" alt="Toimingud andmebaasiga" class="icon ic_s_db"></a>
+              </div>
+
+              <a class="hover_show_full" href="http://localhost/phpmyadmin/index.php?route=/database/structure&amp;db=mysql" title="Struktuur">mysql</a>
+          
+    
+
+    
+    <div class="clearfloat"></div>
+
+
+
+  </li>
+  <li class="database">
+    <div class="block">
+      <i></i>
+              <b></b>
+        <a class="expander" href="#">
+          <span class="hide paths_nav" data-apath="cm9vdA==.cGVyZm9ybWFuY2Vfc2NoZW1h" data-vpath="cm9vdA==.cGVyZm9ybWFuY2Vfc2NoZW1h" data-pos="0"></span>
+                    <img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Laienda/ahenda" alt="Laienda/ahenda" class="icon ic_b_plus">
+        </a>
+          </div>
+    
+          <div class="block second">
+                  <a href="http://localhost/phpmyadmin/index.php?route=/database/operations&amp;db=performance_schema"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Toimingud andmebaasiga" alt="Toimingud andmebaasiga" class="icon ic_s_db"></a>
+              </div>
+
+              <a class="hover_show_full" href="http://localhost/phpmyadmin/index.php?route=/database/structure&amp;db=performance_schema" title="Struktuur">performance_schema</a>
+          
+    
+
+    
+    <div class="clearfloat"></div>
+
+
+
+  </li>
+  <li class="database">
+    <div class="block">
+      <i></i>
+              <b></b>
+        <a class="expander" href="#">
+          <span class="hide paths_nav" data-apath="cm9vdA==.cGhwbXlhZG1pbg==" data-vpath="cm9vdA==.cGhwbXlhZG1pbg==" data-pos="0"></span>
+                    <img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Laienda/ahenda" alt="Laienda/ahenda" class="icon ic_b_plus">
+        </a>
+          </div>
+    
+          <div class="block second">
+                  <a href="http://localhost/phpmyadmin/index.php?route=/database/operations&amp;db=phpmyadmin"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Toimingud andmebaasiga" alt="Toimingud andmebaasiga" class="icon ic_s_db"></a>
+              </div>
+
+              <a class="hover_show_full" href="http://localhost/phpmyadmin/index.php?route=/database/structure&amp;db=phpmyadmin" title="Struktuur">phpmyadmin</a>
+          
+    
+
+    
+    <div class="clearfloat"></div>
+
+
+
+  </li>
+  <li class="database">
+    <div class="block">
+      <i></i>
+              <b></b>
+        <a class="expander" href="#">
+          <span class="hide paths_nav" data-apath="cm9vdA==.cHJvdHNlZHV1cmlkbMO1aGVsYWlk" data-vpath="cm9vdA==.cHJvdHNlZHV1cmlkbMO1aGVsYWlk" data-pos="0"></span>
+                    <img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Laienda/ahenda" alt="Laienda/ahenda" class="icon ic_b_plus">
+        </a>
+          </div>
+    
+          <div class="block second">
+                  <a href="http://localhost/phpmyadmin/index.php?route=/database/operations&amp;db=protseduuridl%C3%B5helaid"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Toimingud andmebaasiga" alt="Toimingud andmebaasiga" class="icon ic_s_db"></a>
+              </div>
+
+              <a class="hover_show_full" href="http://localhost/phpmyadmin/index.php?route=/database/structure&amp;db=protseduuridl%C3%B5helaid" title="Struktuur">protseduuridlõhelaid</a>
+          
+    
+
+    
+    <div class="clearfloat"></div>
+
+
+
+  </li>
+  <li class="database">
+    <div class="block">
+      <i></i>
+              <b></b>
+        <a class="expander" href="#">
+          <span class="hide paths_nav" data-apath="cm9vdA==.cHJvdHNlc3NpZGzDtWhlbGFpZA==" data-vpath="cm9vdA==.cHJvdHNlc3NpZGzDtWhlbGFpZA==" data-pos="0"></span>
+                    <img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Laienda/ahenda" alt="Laienda/ahenda" class="icon ic_b_plus">
+        </a>
+          </div>
+    
+          <div class="block second">
+                  <a href="http://localhost/phpmyadmin/index.php?route=/database/operations&amp;db=protsessidl%C3%B5helaid"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Toimingud andmebaasiga" alt="Toimingud andmebaasiga" class="icon ic_s_db"></a>
+              </div>
+
+              <a class="hover_show_full" href="http://localhost/phpmyadmin/index.php?route=/database/structure&amp;db=protsessidl%C3%B5helaid" title="Struktuur">protsessidlõhelaid</a>
+          
+    
+
+    
+    <div class="clearfloat"></div>
+
+
+
+  </li>
+  <li class="database">
+    <div class="block">
+      <i></i>
+              <b></b>
+        <a class="expander" href="#">
+          <span class="hide paths_nav" data-apath="cm9vdA==.cHVodGVqZXZ0cmlnZXI=" data-vpath="cm9vdA==.cHVodGVqZXZ0cmlnZXI=" data-pos="0"></span>
+                    <img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Laienda/ahenda" alt="Laienda/ahenda" class="icon ic_b_plus">
+        </a>
+          </div>
+    
+          <div class="block second">
+                  <a href="http://localhost/phpmyadmin/index.php?route=/database/operations&amp;db=puhtejevtriger"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Toimingud andmebaasiga" alt="Toimingud andmebaasiga" class="icon ic_s_db"></a>
+              </div>
+
+              <a class="hover_show_full" href="http://localhost/phpmyadmin/index.php?route=/database/structure&amp;db=puhtejevtriger" title="Struktuur">puhtejevtriger</a>
+          
+    
+
+    
+    <div class="clearfloat"></div>
+
+
+
+  </li>
+  <li class="database">
+    <div class="block">
+      <i></i>
+              <b></b>
+        <a class="expander" href="#">
+          <span class="hide paths_nav" data-apath="cm9vdA==.dGVzdA==" data-vpath="cm9vdA==.dGVzdA==" data-pos="0"></span>
+                    <img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Laienda/ahenda" alt="Laienda/ahenda" class="icon ic_b_plus">
+        </a>
+          </div>
+    
+          <div class="block second">
+                  <a href="http://localhost/phpmyadmin/index.php?route=/database/operations&amp;db=test"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Toimingud andmebaasiga" alt="Toimingud andmebaasiga" class="icon ic_s_db"></a>
+              </div>
+
+              <a class="hover_show_full" href="http://localhost/phpmyadmin/index.php?route=/database/structure&amp;db=test" title="Struktuur">test</a>
+          
+    
+
+    
+    <div class="clearfloat"></div>
+
+
+
+  </li>
+  <li class="last database">
+    <div class="block">
+      <i></i>
+              
+        <a class="expander" href="#">
+          <span class="hide paths_nav" data-apath="cm9vdA==.dHJpZ2dlcml2YW5vdg==" data-vpath="cm9vdA==.dHJpZ2dlcml2YW5vdg==" data-pos="0"></span>
+                    <img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Laienda/ahenda" alt="Laienda/ahenda" class="icon ic_b_plus">
+        </a>
+          </div>
+    
+          <div class="block second">
+                  <a href="http://localhost/phpmyadmin/index.php?route=/database/operations&amp;db=triggerivanov"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Toimingud andmebaasiga" alt="Toimingud andmebaasiga" class="icon ic_s_db"></a>
+              </div>
+
+              <a class="hover_show_full" href="http://localhost/phpmyadmin/index.php?route=/database/structure&amp;db=triggerivanov" title="Struktuur">triggerivanov</a>
+          
+    
+
+    
+    <div class="clearfloat"></div>
+
+
+
+  </li>
+
+  </ul>
+</div>
+
+
+</div>
+
+      <div id="pma_navi_settings_container">
+                  
+              </div>
+    </div>
+
+          <div class="pma_drop_handler">
+        Kukuta failid siia      </div>
+      <div class="pma_sql_import_status">
+        <h2>
+          SQL üleslaadimine          ( <span class="pma_import_count">0</span> )
+          <span class="close">x</span>
+          <span class="minimize">-</span>
+        </h2>
+        <div></div>
+      </div>
+      </div>
+  <div class="modal fade" id="unhideNavItemModal" tabindex="-1" aria-labelledby="unhideNavItemModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="unhideNavItemModalLabel">Kuva peidetud navigeerimispaneeli elemendid.</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Sulge"></button>
+      </div>
+      <div class="modal-body"></div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sulge</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="modal fade" id="createViewModal" tabindex="-1" aria-labelledby="createViewModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" id="createViewModalDialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="createViewModalLabel">Loo vaade</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Sulge"></button>
+      </div>
+      <div class="modal-body"></div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" id="createViewModalGoButton">Mine</button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sulge</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  
+  <div id="prefs_autoload" class="alert alert-primary d-print-none hide" role="alert">
+    <form action="index.php?route=/preferences/manage&amp;lang=et" method="post" class="disableAjax">
+        <input type="hidden" name="lang" value="et"><input type="hidden" name="token" value="2d7544252129507c3c4f6e55782c316d">
+        <input type="hidden" name="json" value="">
+        <input type="hidden" name="submit_import" value="1">
+        <input type="hidden" name="return_url" value="index.php?">
+        Sinu veebilehitsejal on selle domeeni jaoks phpMyAdmini 
+seadistus. Kas soovid selle importida praeguse seansi jaoks?        <br>
+        <a href="#yes">Jah</a>
+        / <a href="#no">Ei</a>
+        / <a href="#delete">Kustuta sätted</a>
+    </form>
+</div>
+
+
+  
+      
+  
+      <div id="floating_menubar" class="d-print-none" style="margin-left: 243px; left: 0px; position: fixed; top: 0px; width: 100%; z-index: 99;">
+<nav id="server-breadcrumb" aria-label="breadcrumb">
+  <ol class="breadcrumb breadcrumb-navbar">
+    <li class="breadcrumb-item">
+      <img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="" alt="" class="icon ic_s_host">
+      <a href="http://localhost/phpmyadmin/index.php?route=/" data-raw-text="127.0.0.1" draggable="false">
+        Server:        127.0.0.1
+      </a>
+    </li>
+
+          <li class="breadcrumb-item">
+        <img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="" alt="" class="icon ic_s_db">
+        <a href="http://localhost/phpmyadmin/index.php?route=/database/structure&amp;db=hotellvoronin" data-raw-text="hotellvoronin" draggable="false">
+          Andmebaas:          hotellvoronin
+        </a>
+      </li>
+
+            </ol>
+</nav>
+<div id="topmenucontainer" class="menucontainer">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Lülita navigeerimisriba" aria-controls="navbarNav" aria-expanded="false">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav" style="width: auto; overflow: visible;">
+      <ul id="topmenu" class="navbar-nav">
+                  <li class="nav-item active">
+            <a class="nav-link text-nowrap" href="http://localhost/phpmyadmin/index.php?route=/database/structure&amp;db=hotellvoronin">
+              <img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Struktuur" alt="Struktuur" class="icon ic_b_props">&nbsp;Struktuur
+                              <span class="visually-hidden">(praegune)</span>
+                          </a>
+          </li>
+                  <li class="nav-item">
+            <a class="nav-link text-nowrap" href="http://localhost/phpmyadmin/index.php?route=/database/sql&amp;db=hotellvoronin">
+              <img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="SQL" alt="SQL" class="icon ic_b_sql">&nbsp;SQL
+                          </a>
+          </li>
+                  <li class="nav-item">
+            <a class="nav-link text-nowrap" href="http://localhost/phpmyadmin/index.php?route=/database/search&amp;db=hotellvoronin">
+              <img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Otsi" alt="Otsi" class="icon ic_b_search">&nbsp;Otsi
+                          </a>
+          </li>
+                  <li class="nav-item">
+            <a class="nav-link text-nowrap" href="http://localhost/phpmyadmin/index.php?route=/database/multi-table-query&amp;db=hotellvoronin">
+              <img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Päring" alt="Päring" class="icon ic_s_db">&nbsp;Päring
+                          </a>
+          </li>
+                  <li class="nav-item">
+            <a class="nav-link text-nowrap" href="http://localhost/phpmyadmin/index.php?route=/database/export&amp;db=hotellvoronin">
+              <img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Ekspordi" alt="Ekspordi" class="icon ic_b_export">&nbsp;Ekspordi
+                          </a>
+          </li>
+                  <li class="nav-item">
+            <a class="nav-link text-nowrap" href="http://localhost/phpmyadmin/index.php?route=/database/import&amp;db=hotellvoronin">
+              <img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Impordi" alt="Impordi" class="icon ic_b_import">&nbsp;Impordi
+                          </a>
+          </li>
+                  <li class="nav-item">
+            <a class="nav-link text-nowrap" href="http://localhost/phpmyadmin/index.php?route=/database/operations&amp;db=hotellvoronin">
+              <img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Tegevused" alt="Tegevused" class="icon ic_b_tblops">&nbsp;Tegevused
+                          </a>
+          </li>
+                  <li class="nav-item">
+            <a class="nav-link text-nowrap" href="http://localhost/phpmyadmin/index.php?route=/server/privileges&amp;db=hotellvoronin&amp;checkprivsdb=hotellvoronin&amp;viewing_mode=db">
+              <img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Õigused" alt="Õigused" class="icon ic_s_rights">&nbsp;Õigused
+                          </a>
+          </li>
+                  
+                  
+                  
+                  
+              <li class="nav-item dropdown" style=""><a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img alt="" title="" src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" class="icon ic_b_more">Rohkem</a><ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown"><li class="dropdown-item">
+            <a class="nav-link text-nowrap" href="http://localhost/phpmyadmin/index.php?route=/database/routines&amp;db=hotellvoronin">
+              <img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Funktsioonid" alt="Funktsioonid" class="icon ic_b_routines">&nbsp;Funktsioonid
+                          </a>
+          </li><li class="dropdown-item">
+            <a class="nav-link text-nowrap" href="http://localhost/phpmyadmin/index.php?route=/database/events&amp;db=hotellvoronin">
+              <img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Sündmused" alt="Sündmused" class="icon ic_b_events">&nbsp;Sündmused
+                          </a>
+          </li><li class="dropdown-item">
+            <a class="nav-link text-nowrap" href="http://localhost/phpmyadmin/index.php?route=/database/triggers&amp;db=hotellvoronin">
+              <img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Päästikud" alt="Päästikud" class="icon ic_b_triggers">&nbsp;Päästikud
+                          </a>
+          </li><li class="dropdown-item">
+            <a class="nav-link text-nowrap" href="http://localhost/phpmyadmin/index.php?route=/database/designer&amp;db=hotellvoronin">
+              <img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Kujundaja" alt="Kujundaja" class="icon ic_b_relations">&nbsp;Kujundaja
+                          </a>
+          </li></ul></li></ul>
+    </div>
+  </nav>
+</div>
+</div>
+
+
+
+    <span id="page_nav_icons" class="d-print-none">
+      <span id="lock_page_icon"></span>
+      <span id="page_settings_icon" style="display: inline;">
+        <img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Lehega seonduvad sätted" alt="Lehega seonduvad sätted" class="icon ic_s_cog">
+      </span>
+      <a id="goto_pagetop" href="#"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Kliki ribal, et lehe alguessse kerida" alt="Kliki ribal, et lehe alguessse kerida" class="icon ic_s_top"></a>
+    </span>
+  
+  <div id="pma_console_container" class="d-print-none">
+    <div id="pma_console" style="margin-left: 243px;">
+                <div class="toolbar collapsed">
+                    <div class="switch_button console_switch">
+            <img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="SQL päringu konsool" alt="SQL päringu konsool" class="icon ic_console">
+            <span>Konsool</span>
+        </div>
+                            <div class="button clear">
+            
+            <span>Puhasta</span>
+        </div>
+                            <div class="button history">
+            
+            <span>Ajalugu</span>
+        </div>
+                            <div class="button options">
+            
+            <span>Valikud</span>
+        </div>
+                                        <div class="button debug hide">
+            
+            <span>Silu SQL</span>
+        </div>
+            </div>
+                <div class="content" style="height: 98.248px; margin-bottom: -98.25px; display: none;">
+            <div class="console_message_container">
+                <div class="message welcome binded">
+                    <span id="instructions-0">
+                        Vajuta päringu käivitamiseks Ctrl+Enter                    </span>
+                    <span class="hide" id="instructions-1">
+                        Vajuta päringu käivitamiseks Enter                    </span>
+                </div>
+                            <div class="message collapsed binded successed" msgid="449204796989" targetdb="hotellvoronin" targettable="guest"><div class="action_content">
+                    <span class="action collapse">
+            Ahenda
+                    </span>
+                            <span class="action expand">
+            Laienda
+                    </span>
+                            <span class="action requery">
+            Korduspäring
+                    </span>
+                            <span class="action edit">
+            Muuda
+                    </span>
+                            <span class="action explain">
+            Selgita
+                    </span>
+                            <span class="action profiling">
+            Profileerimine
+                    </span>
+                            <span class="">
+            
+                    </span>
+                            <span class="text failed">
+            Päring nurjus
+                    </span>
+                            <span class="text targetdb">
+            Andmebaas
+                            : <span>hotellvoronin</span>
+                    </span>
+                            <span class="text query_time" title="Thu Apr 30 2026 11:03:24 GMT+0300 (Ida-Euroopa suveaeg)">
+            Päritud aeg
+                            : <span>11:3:24</span>
+                    </span>
+            </div><div class="query highlighted"><span class="cm-keyword">CREATE</span> <span class="cm-keyword">TABLE</span> `hotellvoronin`.`guest` <span class="cm-bracket">(</span><span class="cm-bracket">)</span> ENGINE <span class="cm-operator">=</span> InnoDB<span class="cm-punctuation">;</span></div></div><div class="message collapsed binded successed" msgid="765711969221" targetdb="hotellvoronin" targettable="guest"><div class="action_content">
+                    <span class="action collapse">
+            Ahenda
+                    </span>
+                            <span class="action expand">
+            Laienda
+                    </span>
+                            <span class="action requery">
+            Korduspäring
+                    </span>
+                            <span class="action edit">
+            Muuda
+                    </span>
+                            <span class="action explain">
+            Selgita
+                    </span>
+                            <span class="action profiling">
+            Profileerimine
+                    </span>
+                            <span class="">
+            
+                    </span>
+                            <span class="text failed">
+            Päring nurjus
+                    </span>
+                            <span class="text targetdb">
+            Andmebaas
+                            : <span>hotellvoronin</span>
+                    </span>
+                            <span class="text query_time" title="Thu Apr 30 2026 11:03:32 GMT+0300 (Ida-Euroopa suveaeg)">
+            Päritud aeg
+                            : <span>11:3:32</span>
+                    </span>
+            </div><div class="query highlighted"><span class="cm-keyword">CREATE</span> <span class="cm-keyword">TABLE</span> `hotellvoronin`.`guest` <span class="cm-bracket">(</span><span class="cm-bracket">)</span> ENGINE <span class="cm-operator">=</span> InnoDB<span class="cm-punctuation">;</span></div></div></div><!-- console_message_container -->
+            <div class="query_input">
+                <span class="console_query_input"><div class="CodeMirror cm-s-pma CodeMirror-wrap" translate="no"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 16px;"><textarea style="position: absolute; bottom: -1em; padding: 0px; width: 1px; height: 1em; min-height: 1em; outline: none;" wrap="off" autocorrect="off" autocapitalize="none" spellcheck="false" tabindex="0"></textarea></div><div class="CodeMirror-vscrollbar" tabindex="-1" cm-not-content="true" style="width: 18px; visibility: hidden;"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" tabindex="-1" cm-not-content="true" style="height: 18px; visibility: hidden;"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1" draggable="true"><div class="CodeMirror-sizer" style="margin-left: 16px; margin-bottom: 0px; border-right-width: 50px; min-height: 20px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div style="position: relative; outline: none;" role="presentation"><div class="CodeMirror-measure"><span><span>​</span>x</span></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"><div class="CodeMirror-cursor" style="left: 0px; top: 0px; height: 19.6833px;">&nbsp;</div></div><div class="CodeMirror-code" role="presentation"><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span cm-text="">​</span></span></pre></div></div></div></div></div><div style="position: absolute; height: 50px; width: 1px; border-bottom: 0px solid transparent; top: 20px;"></div><div class="CodeMirror-gutters" style="height: 70px;"><div class="CodeMirror-gutter CodeMirror-lint-markers"></div></div></div></div></span>
+            </div>
+        </div><!-- message end -->
+                <div class="mid_layer"></div>
+                <div class="card ungrouped" id="debug_console">
+            <div class="toolbar ">
+                    <div class="button order order_asc active">
+            
+            <span>kasvav</span>
+        </div>
+                            <div class="button order order_desc">
+            
+            <span>kahanev</span>
+        </div>
+                            <div class="text">
+            
+            <span>Järjestus:</span>
+        </div>
+                            <div class="switch_button">
+            
+            <span>Silu SQL</span>
+        </div>
+                            <div class="button order_by sort_count">
+            
+            <span>Kogus</span>
+        </div>
+                            <div class="button order_by sort_exec active">
+            
+            <span>Käivitusjärjekord</span>
+        </div>
+                            <div class="button order_by sort_time">
+            
+            <span>Aega kulus</span>
+        </div>
+                            <div class="text">
+            
+            <span>Järjesta:</span>
+        </div>
+                            <div class="button group_queries">
+            
+            <span>Grupeeri päringud</span>
+        </div>
+                            <div class="button ungroup_queries">
+            
+            <span>Tühista päringute grupeering</span>
+        </div>
+            </div>
+            <div class="content debug" style="height: 98.248px;">
+                <div class="message welcome binded">SQL silumisinfo hankimisel esines vigu.</div>
+                <div class="debugLog"></div>
+            </div> <!-- Content -->
+            <div class="templates">
+                <div class="debug_query action_content">
+                    <span class="action collapse">
+            Ahenda
+                    </span>
+                            <span class="action expand">
+            Laienda
+                    </span>
+                            <span class="action dbg_show_trace">
+            Kuva jälitusinfo
+                    </span>
+                            <span class="action dbg_hide_trace">
+            Peida jälitusinfo
+                    </span>
+                            <span class="text count hide">
+            Kogus
+                            : <span></span>
+                    </span>
+                            <span class="text time">
+            Aega kulus
+                            : <span></span>
+                    </span>
+            </div>
+            </div> <!-- Template -->
+        </div> <!-- Debug SQL card -->
+                        <div class="card" id="pma_console_options">
+            <div class="toolbar ">
+                    <div class="switch_button">
+            
+            <span>Valikud</span>
+        </div>
+                            <div class="button default">
+            
+            <span>Määra vaikeväärtuseks</span>
+        </div>
+            </div>
+            <div class="content" style="height: 101px;">
+                <label>
+                    <input type="checkbox" name="always_expand">Laienda päringu teated alati                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="start_history">Kuva päringu ajalugu alguses                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="current_query" checked="checked">Kuva valitud lehitsemise päring                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="enter_executes">
+                        Käivita päringud klahviga Enter ja sisesta 
+reavahetused Shift+Enter kombinatsiooniga. Selle püsivaks tegemiseks 
+vaata sätteid.                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="dark_theme">Vali tume teema                </label>
+                <br>
+            </div>
+        </div> <!-- Options card -->
+        <div class="templates">
+                        <div class="query_actions">
+                    <span class="action collapse">
+            Ahenda
+                    </span>
+                            <span class="action expand">
+            Laienda
+                    </span>
+                            <span class="action requery">
+            Korduspäring
+                    </span>
+                            <span class="action edit">
+            Muuda
+                    </span>
+                            <span class="action explain">
+            Selgita
+                    </span>
+                            <span class="action profiling">
+            Profileerimine
+                    </span>
+                            <span class="">
+            
+                    </span>
+                            <span class="text failed">
+            Päring nurjus
+                    </span>
+                            <span class="text targetdb">
+            Andmebaas
+                            : <span></span>
+                    </span>
+                            <span class="text query_time">
+            Päritud aeg
+                            : <span></span>
+                    </span>
+            </div>
+        </div>
+    </div> <!-- #console end -->
+</div> <!-- #console_container end -->
+
+
+  <div id="page_content"><div id="page_settings_modal"><div class="page_settings"><form method="post" action="index.php?route=%2Fdatabase%2Fstructure&amp;db=hotellvoronin&amp;server=1" class="config-form disableAjax">
+  <input type="hidden" name="tab_hash" value="">
+      <input type="hidden" name="check_page_refresh" id="check_page_refresh" value="">
+    <input type="hidden" name="token" value="2d7544252129507c3c4f6e55782c316d">
+  <input type="hidden" name="submit_save" value="DbStructure">
+
+  <ul class="nav nav-tabs" id="configFormDisplayTab" role="tablist">
+          <li class="nav-item" role="presentation">
+        <a class="nav-link active" id="DbStructure-tab" href="#DbStructure" data-bs-toggle="tab" role="tab" aria-controls="DbStructure" aria-selected="true">Andmebaasi struktuur</a>
+      </li>
+      </ul>
+  <div class="tab-content">
+          <div class="tab-pane fade show active" id="DbStructure" role="tabpanel" aria-labelledby="DbStructure-tab">
+        <div class="card border-top-0">
+          <div class="card-body">
+            <h5 class="card-title visually-hidden">Andmebaasi struktuur</h5>
+                          <h6 class="card-subtitle mb-2 text-muted">Vali need detailid, mida soovid näha andmebaasi struktuuris (tabelite nimekirjas).</h6>
+            
+            <fieldset class="optbox">
+              <legend>Andmebaasi struktuur</legend>
+
+                            
+              <table class="table table-borderless">
+                <tbody><tr>
+  <th>
+    <label for="ShowDbStructureCharset">Kuva tabeli märgistik</label>
+
+          <span class="doc">
+        <a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_ShowDbStructureCharset" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Dokumentatsioon" alt="Dokumentatsioon" class="icon ic_b_help"></a>
+      </span>
+    
+    
+          <small>Näita või peida märgistiku veerg kõikidel tabelitel.</small>
+      </th>
+
+  <td>
+          <span class="checkbox">
+        <input type="checkbox" name="ShowDbStructureCharset" id="ShowDbStructureCharset">
+      </span>
+    
+    
+    
+          <a class="restore-default hide" href="#ShowDbStructureCharset" title="Taasta vaikimisi väärtus" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Taasta vaikimisi väärtus" alt="Taasta vaikimisi väärtus" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+<tr>
+  <th>
+    <label for="ShowDbStructureComment">Kuva tabeli kommentaarid</label>
+
+          <span class="doc">
+        <a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_ShowDbStructureComment" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Dokumentatsioon" alt="Dokumentatsioon" class="icon ic_b_help"></a>
+      </span>
+    
+    
+          <small>Näita või peida kõigi tabelite kommentaaride veerg.</small>
+      </th>
+
+  <td>
+          <span class="checkbox">
+        <input type="checkbox" name="ShowDbStructureComment" id="ShowDbStructureComment">
+      </span>
+    
+    
+    
+          <a class="restore-default hide" href="#ShowDbStructureComment" title="Taasta vaikimisi väärtus" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Taasta vaikimisi väärtus" alt="Taasta vaikimisi väärtus" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+<tr>
+  <th>
+    <label for="ShowDbStructureCreation">Kuva loomise ajatempel</label>
+
+          <span class="doc">
+        <a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_ShowDbStructureCreation" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Dokumentatsioon" alt="Dokumentatsioon" class="icon ic_b_help"></a>
+      </span>
+    
+    
+          <small>Näita või peida kõikides tabelites loomise ajatempli veerg.</small>
+      </th>
+
+  <td>
+          <span class="checkbox">
+        <input type="checkbox" name="ShowDbStructureCreation" id="ShowDbStructureCreation">
+      </span>
+    
+    
+    
+          <a class="restore-default hide" href="#ShowDbStructureCreation" title="Taasta vaikimisi väärtus" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Taasta vaikimisi väärtus" alt="Taasta vaikimisi väärtus" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+<tr>
+  <th>
+    <label for="ShowDbStructureLastUpdate">Kuva viimase uuendamise ajatempel</label>
+
+          <span class="doc">
+        <a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_ShowDbStructureLastUpdate" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Dokumentatsioon" alt="Dokumentatsioon" class="icon ic_b_help"></a>
+      </span>
+    
+    
+          <small>Näita või peida kõikides tabelites viimase uuendamise ajatempli veerg.</small>
+      </th>
+
+  <td>
+          <span class="checkbox">
+        <input type="checkbox" name="ShowDbStructureLastUpdate" id="ShowDbStructureLastUpdate">
+      </span>
+    
+    
+    
+          <a class="restore-default hide" href="#ShowDbStructureLastUpdate" title="Taasta vaikimisi väärtus" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Taasta vaikimisi väärtus" alt="Taasta vaikimisi väärtus" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+<tr>
+  <th>
+    <label for="ShowDbStructureLastCheck">Kuva viimase kontrolli ajatempel</label>
+
+          <span class="doc">
+        <a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_ShowDbStructureLastCheck" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Dokumentatsioon" alt="Dokumentatsioon" class="icon ic_b_help"></a>
+      </span>
+    
+    
+          <small>Näita või peida kõikides tabelites viimase kontrolli ajatemplit näitav veerg.</small>
+      </th>
+
+  <td>
+          <span class="checkbox">
+        <input type="checkbox" name="ShowDbStructureLastCheck" id="ShowDbStructureLastCheck">
+      </span>
+    
+    
+    
+          <a class="restore-default hide" href="#ShowDbStructureLastCheck" title="Taasta vaikimisi väärtus" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Taasta vaikimisi väärtus" alt="Taasta vaikimisi väärtus" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+
+              </tbody></table>
+            </fieldset>
+          </div>
+
+                  </div>
+      </div>
+      </div>
+</form>
+
+<script type="text/javascript">
+  if (typeof configInlineParams === 'undefined' || !Array.isArray(configInlineParams)) {
+    configInlineParams = [];
+  }
+  configInlineParams.push(function () {
+    ;
+
+    $.extend(Messages, {
+      'error_nan_p': 'Ei\u0020ole\u0020positiivne\u0020number\u0021',
+      'error_nan_nneg': 'Ei\u0020ole\u0020mitte\u002Dnegatiivne\u0020number\u0021',
+      'error_incorrect_port': 'Vigane\u0020pordi\u0020number\u0021',
+      'error_invalid_value': 'Vale\u0020v\u00E4\u00E4rtus\u0021',
+      'error_value_lte': 'V\u00E4\u00E4rtus\u0020peab\u0020olema\u0020v\u00E4iksem\u0020v\u00F5i\u0020v\u00F5rdne\u0020kui\u0020\u0025s\u0021',
+    });
+
+    $.extend(defaultValues, {
+      'ShowDbStructureCharset': false,
+      'ShowDbStructureComment': false,
+      'ShowDbStructureCreation': false,
+      'ShowDbStructureLastUpdate': false,
+      'ShowDbStructureLastCheck': false
+    });
+  });
+  if (typeof configScriptLoaded !== 'undefined' && configInlineParams) {
+    loadInlineConfig();
+  }
+</script>
+</div></div>
+  <div class="alert alert-primary" role="alert">
+  <img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="" alt="" class="icon ic_s_notice"> Andmebaasist tabeleid ei leitud.
+</div>
+
+
+  <form id="createTableMinimalForm" method="post" action="index.php?route=/table/create" class="card d-print-none lock-page">
+  <input type="hidden" name="db" value="hotellvoronin"><input type="hidden" name="token" value="2d7544252129507c3c4f6e55782c316d">
+  <div class="card-header"><span class="text-nowrap"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Loo uus tabel" alt="Loo uus tabel" class="icon ic_b_table_add">&nbsp;Loo uus tabel</span></div>
+  <div class="card-body row row-cols-lg-auto g-3">
+    <div class="col-12">
+      <label for="createTableNameInput" class="form-label">Tabeli nimi</label>
+      <input type="text" class="form-control" name="table" id="createTableNameInput" maxlength="64" required="">
+    </div>
+    <div class="col-12">
+      <label for="createTableNumFieldsInput" class="form-label">Veergude arv</label>
+      <input type="number" class="form-control" name="num_fields" id="createTableNumFieldsInput" min="1" value="4" required="">
+    </div>
+    <div class="col-12 align-self-lg-end">
+      <input class="btn btn-primary" type="submit" value="Loo">
+    </div>
+  </div>
+</form>
+
+</div>
+      <div id="selflink" class="d-print-none" style="">
+      <a href="http://localhost/phpmyadmin/index.php?route=%2Fdatabase%2Fstructure&amp;db=hotellvoronin&amp;server=1" title="Ava uus phpMyAdmini aken" target="_blank" rel="noopener noreferrer">
+                  <img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Ava uus phpMyAdmini aken" alt="Ava uus phpMyAdmini aken" class="icon ic_window-new">
+              </a>
+    </div>
+  
+  
+
+  
+
+
+
+  
+  
+  
+
+<div style="position: fixed; height: auto; width: 700px; top: 25.7835px; left: 196.5px;" tabindex="-1" role="dialog" class="ui-dialog ui-corner-all ui-widget ui-widget-content ui-front ui-dialog-buttons ui-draggable ui-resizable" aria-describedby="pma_navigation_settings" aria-labelledby="ui-id-17"><div class="ui-dialog-titlebar ui-corner-all ui-widget-header ui-helper-clearfix ui-draggable-handle"><span id="ui-id-17" class="ui-dialog-title">Lehega seonduvad sätted</span><button type="button" class="ui-dialog-titlebar-close btn-close"></button></div><div id="pma_navigation_settings" style="display: block; width: auto; min-height: 134.533px; max-height: 431.1px; height: auto;" class="ui-dialog-content ui-widget-content"><div class="page_settings"><form method="post" action="index.php?route=%2Fdatabase%2Fstructure&amp;db=hotellvoronin&amp;server=1" class="config-form disableAjax">
+  <input type="hidden" name="tab_hash" value="">
+      <input type="hidden" name="check_page_refresh" id="check_page_refresh" value="1">
+    <input type="hidden" name="lang" value="et"><input type="hidden" name="token" value="2d7544252129507c3c4f6e55782c316d">
+  <input type="hidden" name="submit_save" value="Navi">
+
+  <ul class="nav nav-tabs" id="configFormDisplayTab" role="tablist">
+          <li class="nav-item" role="presentation">
+        <a class="nav-link active" id="Navi_panel-tab" href="#Navi_panel" data-bs-toggle="tab" role="tab" aria-controls="Navi_panel" aria-selected="true">Navigeerimise paneel</a>
+      </li>
+          <li class="nav-item" role="presentation">
+        <a class="nav-link" id="Navi_tree-tab" href="#Navi_tree" data-bs-toggle="tab" role="tab" aria-controls="Navi_tree" aria-selected="false" tabindex="-1">Navigeerimispuu</a>
+      </li>
+          <li class="nav-item" role="presentation">
+        <a class="nav-link" id="Navi_servers-tab" href="#Navi_servers" data-bs-toggle="tab" role="tab" aria-controls="Navi_servers" aria-selected="false" tabindex="-1">Serverid</a>
+      </li>
+          <li class="nav-item" role="presentation">
+        <a class="nav-link" id="Navi_databases-tab" href="#Navi_databases" data-bs-toggle="tab" role="tab" aria-controls="Navi_databases" aria-selected="false" tabindex="-1">Andmebaasid</a>
+      </li>
+          <li class="nav-item" role="presentation">
+        <a class="nav-link" id="Navi_tables-tab" href="#Navi_tables" data-bs-toggle="tab" role="tab" aria-controls="Navi_tables" aria-selected="false" tabindex="-1">Tabelid</a>
+      </li>
+      </ul>
+  <div class="tab-content">
+          <div class="tab-pane fade show active" id="Navi_panel" role="tabpanel" aria-labelledby="Navi_panel-tab">
+        <div class="card border-top-0">
+          <div class="card-body">
+            <h5 class="card-title visually-hidden">Navigeerimise paneel</h5>
+                          <h6 class="card-subtitle mb-2 text-muted">Muuda navigeerimise paneeli välimust.</h6>
+            
+            <fieldset class="optbox">
+              <legend>Navigeerimise paneel</legend>
+
+                            
+              <table class="table table-borderless">
+                <tbody><tr>
+  <th>
+    <label for="ShowDatabasesNavigationAsTree">Kuva andmebaaside navigeerimine puuna</label>
+
+          <span class="doc">
+        <a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_ShowDatabasesNavigationAsTree" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Dokumentatsioon" alt="Dokumentatsioon" class="icon ic_b_help"></a>
+      </span>
+    
+    
+          <small>Asendab navigeerimispaneelil andmebaasi puu valijaga</small>
+      </th>
+
+  <td>
+          <span class="checkbox">
+        <input type="checkbox" name="ShowDatabasesNavigationAsTree" id="ShowDatabasesNavigationAsTree" checked="checked">
+      </span>
+    
+    
+    
+          <a class="restore-default hide" href="#ShowDatabasesNavigationAsTree" title="Taasta vaikimisi väärtus" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Taasta vaikimisi väärtus" alt="Taasta vaikimisi väärtus" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+<tr>
+  <th>
+    <label for="NavigationLinkWithMainPanel">Lingi peapaneeli</label>
+
+          <span class="doc">
+        <a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationLinkWithMainPanel" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Dokumentatsioon" alt="Dokumentatsioon" class="icon ic_b_help"></a>
+      </span>
+    
+    
+          <small>Lingi peapaneeliga tõstes esile aktiivse andmebaasi või tabeli.</small>
+      </th>
+
+  <td>
+          <span class="checkbox">
+        <input type="checkbox" name="NavigationLinkWithMainPanel" id="NavigationLinkWithMainPanel" checked="checked">
+      </span>
+    
+    
+    
+          <a class="restore-default hide" href="#NavigationLinkWithMainPanel" title="Taasta vaikimisi väärtus" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Taasta vaikimisi väärtus" alt="Taasta vaikimisi väärtus" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+<tr>
+  <th>
+    <label for="NavigationDisplayLogo">Näita logo</label>
+
+          <span class="doc">
+        <a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationDisplayLogo" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Dokumentatsioon" alt="Dokumentatsioon" class="icon ic_b_help"></a>
+      </span>
+    
+    
+          <small>Näita logo navigeerimise paneelis.</small>
+      </th>
+
+  <td>
+          <span class="checkbox">
+        <input type="checkbox" name="NavigationDisplayLogo" id="NavigationDisplayLogo" checked="checked">
+      </span>
+    
+    
+    
+          <a class="restore-default hide" href="#NavigationDisplayLogo" title="Taasta vaikimisi väärtus" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Taasta vaikimisi väärtus" alt="Taasta vaikimisi väärtus" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+<tr>
+  <th>
+    <label for="NavigationLogoLink">Logo lingi URL</label>
+
+          <span class="doc">
+        <a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationLogoLink" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Dokumentatsioon" alt="Dokumentatsioon" class="icon ic_b_help"></a>
+      </span>
+    
+    
+          <small>URL, millele navigeerimise paneeli logo suunab.</small>
+      </th>
+
+  <td>
+          <input type="text" name="NavigationLogoLink" id="NavigationLogoLink" value="index.php" class="w-75">
+    
+    
+    
+          <a class="restore-default hide" href="#NavigationLogoLink" title="Taasta vaikimisi väärtus" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Taasta vaikimisi väärtus" alt="Taasta vaikimisi väärtus" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+<tr>
+  <th>
+    <label for="NavigationLogoLinkWindow">Logo lingi sihtkoht</label>
+
+          <span class="doc">
+        <a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationLogoLinkWindow" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Dokumentatsioon" alt="Dokumentatsioon" class="icon ic_b_help"></a>
+      </span>
+    
+    
+          <small>Ava lingitud leht peaaknas (<code>main</code>) või uues (<code>new</code>).</small>
+      </th>
+
+  <td>
+          <select name="NavigationLogoLinkWindow" id="NavigationLogoLinkWindow" class="w-75">
+                            <option value="main" selected="selected">main</option>
+                            <option value="new">new</option>
+              </select>
+    
+    
+    
+          <a class="restore-default hide" href="#NavigationLogoLinkWindow" title="Taasta vaikimisi väärtus" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Taasta vaikimisi väärtus" alt="Taasta vaikimisi väärtus" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+<tr>
+  <th>
+    <label for="NavigationTreePointerEnable">Luba esiletõstmine</label>
+
+          <span class="doc">
+        <a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreePointerEnable" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Dokumentatsioon" alt="Dokumentatsioon" class="icon ic_b_help"></a>
+      </span>
+    
+    
+          <small>Tõsta kursori all olev server esile.</small>
+      </th>
+
+  <td>
+          <span class="checkbox">
+        <input type="checkbox" name="NavigationTreePointerEnable" id="NavigationTreePointerEnable" checked="checked">
+      </span>
+    
+    
+    
+          <a class="restore-default hide" href="#NavigationTreePointerEnable" title="Taasta vaikimisi väärtus" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Taasta vaikimisi väärtus" alt="Taasta vaikimisi väärtus" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+<tr>
+  <th>
+    <label for="FirstLevelNavigationItems">Maksimaalne elementide arv esimesel tasemel</label>
+
+          <span class="doc">
+        <a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_FirstLevelNavigationItems" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Dokumentatsioon" alt="Dokumentatsioon" class="icon ic_b_help"></a>
+      </span>
+    
+    
+          <small>Igal lehel navigeerimispuu esimesel tasemel näidatavate elementide arv.</small>
+      </th>
+
+  <td>
+          <input type="number" name="FirstLevelNavigationItems" id="FirstLevelNavigationItems" value="100" class="">
+    
+    
+    
+          <a class="restore-default hide" href="#FirstLevelNavigationItems" title="Taasta vaikimisi väärtus" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Taasta vaikimisi väärtus" alt="Taasta vaikimisi väärtus" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+<tr>
+  <th>
+    <label for="NavigationTreeDisplayItemFilterMinimum">Minimaalne filtri kastis näidatavate elementide arv</label>
+
+          <span class="doc">
+        <a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreeDisplayItemFilterMinimum" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Dokumentatsioon" alt="Dokumentatsioon" class="icon ic_b_help"></a>
+      </span>
+    
+    
+          <small>Minimaalne filtrikastis näidatavate elementide (tabelid, protseduurid ja sündmused) arv.</small>
+      </th>
+
+  <td>
+          <input type="number" name="NavigationTreeDisplayItemFilterMinimum" id="NavigationTreeDisplayItemFilterMinimum" value="30" class="">
+    
+    
+    
+          <a class="restore-default hide" href="#NavigationTreeDisplayItemFilterMinimum" title="Taasta vaikimisi väärtus" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Taasta vaikimisi väärtus" alt="Taasta vaikimisi väärtus" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+<tr>
+  <th>
+    <label for="NumRecentTables">Hiljuti kasutatud tabelid</label>
+
+          <span class="doc">
+        <a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NumRecentTables" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Dokumentatsioon" alt="Dokumentatsioon" class="icon ic_b_help"></a>
+      </span>
+    
+    
+          <small>Hiljuti kasutatud tabelite suurim hulk. Keelamiseks sisesta 0.</small>
+      </th>
+
+  <td>
+          <input type="number" name="NumRecentTables" id="NumRecentTables" value="10" class="">
+    
+    
+    
+          <a class="restore-default hide" href="#NumRecentTables" title="Taasta vaikimisi väärtus" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Taasta vaikimisi väärtus" alt="Taasta vaikimisi väärtus" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+<tr>
+  <th>
+    <label for="NumFavoriteTables">Lemmikute tabel</label>
+
+          <span class="doc">
+        <a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NumFavoriteTables" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Dokumentatsioon" alt="Dokumentatsioon" class="icon ic_b_help"></a>
+      </span>
+    
+    
+          <small>Lemmiktabelite suurim hulk. Keelamiseks sisesta 0.</small>
+      </th>
+
+  <td>
+          <input type="number" name="NumFavoriteTables" id="NumFavoriteTables" value="10" class="">
+    
+    
+    
+          <a class="restore-default hide" href="#NumFavoriteTables" title="Taasta vaikimisi väärtus" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Taasta vaikimisi väärtus" alt="Taasta vaikimisi väärtus" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+<tr>
+  <th>
+    <label for="NavigationWidth">Navigatsioonipaneeli laius</label>
+
+          <span class="doc">
+        <a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationWidth" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Dokumentatsioon" alt="Dokumentatsioon" class="icon ic_b_help"></a>
+      </span>
+    
+    
+          <small>Väärtus 0 peidab navigatsioonipaneeli.</small>
+      </th>
+
+  <td>
+          <input type="number" name="NavigationWidth" id="NavigationWidth" value="240" class="">
+    
+    
+    
+          <a class="restore-default hide" href="#NavigationWidth" title="Taasta vaikimisi väärtus" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Taasta vaikimisi väärtus" alt="Taasta vaikimisi väärtus" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+
+              </tbody></table>
+            </fieldset>
+          </div>
+
+                  </div>
+      </div>
+          <div class="tab-pane fade" id="Navi_tree" role="tabpanel" aria-labelledby="Navi_tree-tab">
+        <div class="card border-top-0">
+          <div class="card-body">
+            <h5 class="card-title visually-hidden">Navigeerimispuu</h5>
+                          <h6 class="card-subtitle mb-2 text-muted">Muuda navigeerimispuud.</h6>
+            
+            <fieldset class="optbox">
+              <legend>Navigeerimispuu</legend>
+
+                            
+              <table class="table table-borderless">
+                <tbody><tr>
+  <th>
+    <label for="MaxNavigationItems">Maksimaalne elementide arv harus</label>
+
+          <span class="doc">
+        <a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_MaxNavigationItems" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Dokumentatsioon" alt="Dokumentatsioon" class="icon ic_b_help"></a>
+      </span>
+    
+    
+          <small>Iga lehe navigeerimispuus näidatavate elementide arv.</small>
+      </th>
+
+  <td>
+          <input type="number" name="MaxNavigationItems" id="MaxNavigationItems" value="50" class="">
+    
+    
+    
+          <a class="restore-default hide" href="#MaxNavigationItems" title="Taasta vaikimisi väärtus" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Taasta vaikimisi väärtus" alt="Taasta vaikimisi väärtus" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+<tr>
+  <th>
+    <label for="NavigationTreeEnableGrouping">Grupeeri puu elemendid</label>
+
+          <span class="doc">
+        <a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreeEnableGrouping" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Dokumentatsioon" alt="Dokumentatsioon" class="icon ic_b_help"></a>
+      </span>
+    
+    
+          <small>Grupeeri navigeerimispuu elemendid (kaartidel Andmebaasid ja Tabelid määratud eraldaja alusel).</small>
+      </th>
+
+  <td>
+          <span class="checkbox">
+        <input type="checkbox" name="NavigationTreeEnableGrouping" id="NavigationTreeEnableGrouping" checked="checked">
+      </span>
+    
+    
+    
+          <a class="restore-default hide" href="#NavigationTreeEnableGrouping" title="Taasta vaikimisi väärtus" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Taasta vaikimisi väärtus" alt="Taasta vaikimisi väärtus" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+<tr>
+  <th>
+    <label for="NavigationTreeEnableExpansion">Luba navigeerimispuu laiendamine</label>
+
+          <span class="doc">
+        <a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreeEnableExpansion" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Dokumentatsioon" alt="Dokumentatsioon" class="icon ic_b_help"></a>
+      </span>
+    
+    
+          <small>Kas lubada navigeerimispaneelil puu laiendamist või mitte.</small>
+      </th>
+
+  <td>
+          <span class="checkbox">
+        <input type="checkbox" name="NavigationTreeEnableExpansion" id="NavigationTreeEnableExpansion" checked="checked">
+      </span>
+    
+    
+    
+          <a class="restore-default hide" href="#NavigationTreeEnableExpansion" title="Taasta vaikimisi väärtus" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Taasta vaikimisi väärtus" alt="Taasta vaikimisi väärtus" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+<tr>
+  <th>
+    <label for="NavigationTreeShowTables">Kuva puus tabelite loend</label>
+
+          <span class="doc">
+        <a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreeShowTables" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Dokumentatsioon" alt="Dokumentatsioon" class="icon ic_b_help"></a>
+      </span>
+    
+    
+          <small>Kas kuvada tabelid andmebaasi navigeerimispuus</small>
+      </th>
+
+  <td>
+          <span class="checkbox">
+        <input type="checkbox" name="NavigationTreeShowTables" id="NavigationTreeShowTables" checked="checked">
+      </span>
+    
+    
+    
+          <a class="restore-default hide" href="#NavigationTreeShowTables" title="Taasta vaikimisi väärtus" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Taasta vaikimisi väärtus" alt="Taasta vaikimisi väärtus" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+<tr>
+  <th>
+    <label for="NavigationTreeShowViews">Kuva puus vaated</label>
+
+          <span class="doc">
+        <a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreeShowViews" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Dokumentatsioon" alt="Dokumentatsioon" class="icon ic_b_help"></a>
+      </span>
+    
+    
+          <small>Kas kuvada vaated andmebaasi navigeerimispuus</small>
+      </th>
+
+  <td>
+          <span class="checkbox">
+        <input type="checkbox" name="NavigationTreeShowViews" id="NavigationTreeShowViews" checked="checked">
+      </span>
+    
+    
+    
+          <a class="restore-default hide" href="#NavigationTreeShowViews" title="Taasta vaikimisi väärtus" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Taasta vaikimisi väärtus" alt="Taasta vaikimisi väärtus" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+<tr>
+  <th>
+    <label for="NavigationTreeShowFunctions">Kuva puus funktsioonid</label>
+
+          <span class="doc">
+        <a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreeShowFunctions" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Dokumentatsioon" alt="Dokumentatsioon" class="icon ic_b_help"></a>
+      </span>
+    
+    
+          <small>Kas kuvada funktsioonid andmebaasi navigeerimispuus</small>
+      </th>
+
+  <td>
+          <span class="checkbox">
+        <input type="checkbox" name="NavigationTreeShowFunctions" id="NavigationTreeShowFunctions" checked="checked">
+      </span>
+    
+    
+    
+          <a class="restore-default hide" href="#NavigationTreeShowFunctions" title="Taasta vaikimisi väärtus" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Taasta vaikimisi väärtus" alt="Taasta vaikimisi väärtus" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+<tr>
+  <th>
+    <label for="NavigationTreeShowProcedures">Kuva puus protseduurid</label>
+
+          <span class="doc">
+        <a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreeShowProcedures" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Dokumentatsioon" alt="Dokumentatsioon" class="icon ic_b_help"></a>
+      </span>
+    
+    
+          <small>Kas kuvada protseduurid andmebaasi navigeerimispuus</small>
+      </th>
+
+  <td>
+          <span class="checkbox">
+        <input type="checkbox" name="NavigationTreeShowProcedures" id="NavigationTreeShowProcedures" checked="checked">
+      </span>
+    
+    
+    
+          <a class="restore-default hide" href="#NavigationTreeShowProcedures" title="Taasta vaikimisi väärtus" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Taasta vaikimisi väärtus" alt="Taasta vaikimisi väärtus" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+<tr>
+  <th>
+    <label for="NavigationTreeShowEvents">Kuva puus sündmused</label>
+
+          <span class="doc">
+        <a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreeShowEvents" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Dokumentatsioon" alt="Dokumentatsioon" class="icon ic_b_help"></a>
+      </span>
+    
+    
+          <small>Kas kuvada sündmused andmebaasi navigeerimispuus</small>
+      </th>
+
+  <td>
+          <span class="checkbox">
+        <input type="checkbox" name="NavigationTreeShowEvents" id="NavigationTreeShowEvents" checked="checked">
+      </span>
+    
+    
+    
+          <a class="restore-default hide" href="#NavigationTreeShowEvents" title="Taasta vaikimisi väärtus" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Taasta vaikimisi väärtus" alt="Taasta vaikimisi väärtus" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+<tr>
+  <th>
+    <label for="NavigationTreeAutoexpandSingleDb">Ava üksik andmebaas</label>
+
+          <span class="doc">
+        <a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreeAutoexpandSingleDb" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Dokumentatsioon" alt="Dokumentatsioon" class="icon ic_b_help"></a>
+      </span>
+    
+    
+          <small>Kas avada üksik andmebaas navigeerimispuus automaatselt.</small>
+      </th>
+
+  <td>
+          <span class="checkbox">
+        <input type="checkbox" name="NavigationTreeAutoexpandSingleDb" id="NavigationTreeAutoexpandSingleDb" checked="checked">
+      </span>
+    
+    
+    
+          <a class="restore-default hide" href="#NavigationTreeAutoexpandSingleDb" title="Taasta vaikimisi väärtus" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Taasta vaikimisi väärtus" alt="Taasta vaikimisi väärtus" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+
+              </tbody></table>
+            </fieldset>
+          </div>
+
+                  </div>
+      </div>
+          <div class="tab-pane fade" id="Navi_servers" role="tabpanel" aria-labelledby="Navi_servers-tab">
+        <div class="card border-top-0">
+          <div class="card-body">
+            <h5 class="card-title visually-hidden">Serverid</h5>
+                          <h6 class="card-subtitle mb-2 text-muted">Serverite näitamise valikud.</h6>
+            
+            <fieldset class="optbox">
+              <legend>Serverid</legend>
+
+                            
+              <table class="table table-borderless">
+                <tbody><tr>
+  <th>
+    <label for="NavigationDisplayServers">Näita serverite valikut</label>
+
+          <span class="doc">
+        <a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationDisplayServers" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Dokumentatsioon" alt="Dokumentatsioon" class="icon ic_b_help"></a>
+      </span>
+    
+    
+          <small>Näita serveri valikut nevigeerimispaneeli ülaosas.</small>
+      </th>
+
+  <td>
+          <span class="checkbox">
+        <input type="checkbox" name="NavigationDisplayServers" id="NavigationDisplayServers" checked="checked">
+      </span>
+    
+    
+    
+          <a class="restore-default hide" href="#NavigationDisplayServers" title="Taasta vaikimisi väärtus" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Taasta vaikimisi väärtus" alt="Taasta vaikimisi väärtus" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+<tr>
+  <th>
+    <label for="DisplayServersList">Näita andmebaase nimekirjana</label>
+
+          <span class="doc">
+        <a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_DisplayServersList" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Dokumentatsioon" alt="Dokumentatsioon" class="icon ic_b_help"></a>
+      </span>
+    
+    
+          <small>Näita servereid rippmenüü asemel nimekirjana.</small>
+      </th>
+
+  <td>
+          <span class="checkbox">
+        <input type="checkbox" name="DisplayServersList" id="DisplayServersList">
+      </span>
+    
+    
+    
+          <a class="restore-default hide" href="#DisplayServersList" title="Taasta vaikimisi väärtus" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Taasta vaikimisi väärtus" alt="Taasta vaikimisi väärtus" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+
+              </tbody></table>
+            </fieldset>
+          </div>
+
+                  </div>
+      </div>
+          <div class="tab-pane fade" id="Navi_databases" role="tabpanel" aria-labelledby="Navi_databases-tab">
+        <div class="card border-top-0">
+          <div class="card-body">
+            <h5 class="card-title visually-hidden">Andmebaasid</h5>
+                          <h6 class="card-subtitle mb-2 text-muted">Andmebaaside näitamise valikud.</h6>
+            
+            <fieldset class="optbox">
+              <legend>Andmebaasid</legend>
+
+                            
+              <table class="table table-borderless">
+                <tbody><tr>
+  <th>
+    <label for="NavigationTreeDisplayDbFilterMinimum">Andmebaasi filtri kastis näidatavate andmebaaside minimaalne hulk</label>
+
+          <span class="doc">
+        <a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreeDisplayDbFilterMinimum" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Dokumentatsioon" alt="Dokumentatsioon" class="icon ic_b_help"></a>
+      </span>
+    
+    
+      </th>
+
+  <td>
+          <input type="number" name="NavigationTreeDisplayDbFilterMinimum" id="NavigationTreeDisplayDbFilterMinimum" value="30" class="">
+    
+    
+    
+          <a class="restore-default hide" href="#NavigationTreeDisplayDbFilterMinimum" title="Taasta vaikimisi väärtus" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Taasta vaikimisi väärtus" alt="Taasta vaikimisi väärtus" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+<tr>
+  <th>
+    <label for="NavigationTreeDbSeparator">Andmebaasipuu eraldaja</label>
+
+          <span class="doc">
+        <a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreeDbSeparator" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Dokumentatsioon" alt="Dokumentatsioon" class="icon ic_b_help"></a>
+      </span>
+    
+    
+          <small>Sõne, mis eraldab andmebaasid kolme erinevasse puu tasandisse.</small>
+      </th>
+
+  <td>
+                <input type="text" size="25" name="NavigationTreeDbSeparator" id="NavigationTreeDbSeparator" value="_" class="">
+    
+    
+    
+          <a class="restore-default hide" href="#NavigationTreeDbSeparator" title="Taasta vaikimisi väärtus" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Taasta vaikimisi väärtus" alt="Taasta vaikimisi väärtus" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+
+              </tbody></table>
+            </fieldset>
+          </div>
+
+                  </div>
+      </div>
+          <div class="tab-pane fade" id="Navi_tables" role="tabpanel" aria-labelledby="Navi_tables-tab">
+        <div class="card border-top-0">
+          <div class="card-body">
+            <h5 class="card-title visually-hidden">Tabelid</h5>
+                          <h6 class="card-subtitle mb-2 text-muted">Tabelite näitamise valikud.</h6>
+            
+            <fieldset class="optbox">
+              <legend>Tabelid</legend>
+
+                            
+              <table class="table table-borderless">
+                <tbody><tr>
+  <th>
+    <label for="NavigationTreeDefaultTabTable">Kiiravamisikooni sihtkoht</label>
+
+          <span class="doc">
+        <a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreeDefaultTabTable" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Dokumentatsioon" alt="Dokumentatsioon" class="icon ic_b_help"></a>
+      </span>
+    
+    
+      </th>
+
+  <td>
+          <select name="NavigationTreeDefaultTabTable" id="NavigationTreeDefaultTabTable" class="w-75">
+                            <option value="structure" selected="selected">Struktuur</option>
+                            <option value="sql">SQL</option>
+                            <option value="search">Otsi</option>
+                            <option value="insert">Lisa</option>
+                            <option value="browse">Vaata</option>
+              </select>
+    
+    
+    
+          <a class="restore-default hide" href="#NavigationTreeDefaultTabTable" title="Taasta vaikimisi väärtus" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Taasta vaikimisi väärtus" alt="Taasta vaikimisi väärtus" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+<tr>
+  <th>
+    <label for="NavigationTreeDefaultTabTable2">Teise kiiravamisikooni sihtkoht</label>
+
+          <span class="doc">
+        <a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreeDefaultTabTable2" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Dokumentatsioon" alt="Dokumentatsioon" class="icon ic_b_help"></a>
+      </span>
+    
+    
+      </th>
+
+  <td>
+          <select name="NavigationTreeDefaultTabTable2" id="NavigationTreeDefaultTabTable2" class="w-75">
+                            <option value="" selected="selected"></option>
+                            <option value="structure">Struktuur</option>
+                            <option value="sql">SQL</option>
+                            <option value="search">Otsi</option>
+                            <option value="insert">Lisa</option>
+                            <option value="browse">Vaata</option>
+              </select>
+    
+    
+    
+          <a class="restore-default hide" href="#NavigationTreeDefaultTabTable2" title="Taasta vaikimisi väärtus" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Taasta vaikimisi väärtus" alt="Taasta vaikimisi väärtus" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+<tr>
+  <th>
+    <label for="NavigationTreeTableSeparator">Tabelipuu eraldaja</label>
+
+          <span class="doc">
+        <a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreeTableSeparator" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Dokumentatsioon" alt="Dokumentatsioon" class="icon ic_b_help"></a>
+      </span>
+    
+    
+          <small>Sõne, mis eraldab tabelid kolme erinevasse puu tasandisse.</small>
+      </th>
+
+  <td>
+                <input type="text" size="25" name="NavigationTreeTableSeparator" id="NavigationTreeTableSeparator" value="__" class="">
+    
+    
+    
+          <a class="restore-default hide" href="#NavigationTreeTableSeparator" title="Taasta vaikimisi väärtus" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Taasta vaikimisi väärtus" alt="Taasta vaikimisi väärtus" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+<tr>
+  <th>
+    <label for="NavigationTreeTableLevel">Maksimaalne tabelipuu kõrgus</label>
+
+          <span class="doc">
+        <a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreeTableLevel" target="documentation"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Dokumentatsioon" alt="Dokumentatsioon" class="icon ic_b_help"></a>
+      </span>
+    
+    
+      </th>
+
+  <td>
+          <input type="number" name="NavigationTreeTableLevel" id="NavigationTreeTableLevel" value="1" class="">
+    
+    
+    
+          <a class="restore-default hide" href="#NavigationTreeTableLevel" title="Taasta vaikimisi väärtus" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20127.0.0.1%20_%20hotellvoronin%20_%20phpMyAdmin%205.2.1_failid/dot.gif" title="Taasta vaikimisi väärtus" alt="Taasta vaikimisi väärtus" class="icon ic_s_reload" style="display: none;"></a>
+    
+          </td>
+
+  </tr>
+
+              </tbody></table>
+            </fieldset>
+          </div>
+
+                  </div>
+      </div>
+      </div>
+</form>
+
+<script type="text/javascript">
+  if (typeof configInlineParams === 'undefined' || !Array.isArray(configInlineParams)) {
+    configInlineParams = [];
+  }
+  configInlineParams.push(function () {
+    registerFieldValidator('FirstLevelNavigationItems', 'validatePositiveNumber', true);
+registerFieldValidator('NavigationTreeDisplayItemFilterMinimum', 'validatePositiveNumber', true);
+registerFieldValidator('NumRecentTables', 'validateNonNegativeNumber', true);
+registerFieldValidator('NumFavoriteTables', 'validateNonNegativeNumber', true);
+registerFieldValidator('NavigationWidth', 'validateNonNegativeNumber', true);
+registerFieldValidator('MaxNavigationItems', 'validatePositiveNumber', true);
+registerFieldValidator('NavigationTreeTableLevel', 'validatePositiveNumber', true);
+
+    $.extend(Messages, {
+      'error_nan_p': 'Ei\u0020ole\u0020positiivne\u0020number\u0021',
+      'error_nan_nneg': 'Ei\u0020ole\u0020mitte\u002Dnegatiivne\u0020number\u0021',
+      'error_incorrect_port': 'Vigane\u0020pordi\u0020number\u0021',
+      'error_invalid_value': 'Vale\u0020v\u00E4\u00E4rtus\u0021',
+      'error_value_lte': 'V\u00E4\u00E4rtus\u0020peab\u0020olema\u0020v\u00E4iksem\u0020v\u00F5i\u0020v\u00F5rdne\u0020kui\u0020\u0025s\u0021',
+    });
+
+    $.extend(defaultValues, {
+      'ShowDatabasesNavigationAsTree': true,
+      'NavigationLinkWithMainPanel': true,
+      'NavigationDisplayLogo': true,
+      'NavigationLogoLink': 'index.php',
+      'NavigationLogoLinkWindow': ['main'],
+      'NavigationTreePointerEnable': true,
+      'FirstLevelNavigationItems': '100',
+      'NavigationTreeDisplayItemFilterMinimum': '30',
+      'NumRecentTables': '10',
+      'NumFavoriteTables': '10',
+      'NavigationWidth': '240',
+      'MaxNavigationItems': '50',
+      'NavigationTreeEnableGrouping': true,
+      'NavigationTreeEnableExpansion': true,
+      'NavigationTreeShowTables': true,
+      'NavigationTreeShowViews': true,
+      'NavigationTreeShowFunctions': true,
+      'NavigationTreeShowProcedures': true,
+      'NavigationTreeShowEvents': true,
+      'NavigationTreeAutoexpandSingleDb': true,
+      'NavigationDisplayServers': true,
+      'DisplayServersList': false,
+      'NavigationTreeDisplayDbFilterMinimum': '30',
+      'NavigationTreeDbSeparator': '_',
+      'NavigationTreeDefaultTabTable': ['structure'],
+      'NavigationTreeDefaultTabTable2': [''],
+      'NavigationTreeTableSeparator': '__',
+      'NavigationTreeTableLevel': '1'
+    });
+  });
+  if (typeof configScriptLoaded !== 'undefined' && configInlineParams) {
+    loadInlineConfig();
+  }
+</script>
+</div></div><div class="ui-dialog-buttonpane ui-widget-content ui-helper-clearfix"><div class="ui-dialog-buttonset"><button type="button" class="btn btn-primary">Rakenda</button><button type="button" class="btn btn-secondary">Katkesta</button></div></div><div class="ui-resizable-handle ui-resizable-n" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-e" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-s" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-w" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-ne" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-nw" style="z-index: 90;"></div></div><div class="ui-widget-overlay ui-front" style="z-index: 800;"></div></body></html>
