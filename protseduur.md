@@ -90,4 +90,7 @@ EXEC muudatus 'drop','guest','testVeerg1'
 
 <img width="431" height="282" alt="{5A73AA66-2703-4B5D-968F-12447A6B2930}" src="https://github.com/user-attachments/assets/c0631ae3-c99b-408f-bcc7-4e821f8c61da" />
 
+<img width="586" height="562" alt="{E02C9832-AF3A-4BC1-A356-B646C7CECE8D}" src="https://github.com/user-attachments/assets/c0bd9467-fff3-4b9c-a99a-601c3879e398" />
+
+
 
