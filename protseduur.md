@@ -56,4 +56,38 @@ EXEC kustutaGuest 1;
 
 <img width="464" height="420" alt="{7AE138EC-C8BA-4441-BE1B-2746CCA49D11}" src="https://github.com/user-attachments/assets/ac7d085e-2af3-49dc-a3e3-c3e1d893a432" />
 
+- Muudatused
+```
+CREATE PROCEDURE muudatus
+    @tegevus varchar(10),
+    @tabelinimi varchar(25),
+    @veerunimi varchar(25),
+    @tyyp varchar(25) = NULL
+AS
+BEGIN
+    DECLARE @sqltegevus varchar(max);
+
+    SET @sqltegevus = CASE 
+        WHEN @tegevus = 'add' THEN 
+            CONCAT('ALTER TABLE ', @tabelinimi, ' ADD ', @veerunimi, ' ', @tyyp)
+
+        WHEN @tegevus = 'drop' THEN 
+            CONCAT('ALTER TABLE ', @tabelinimi, ' DROP COLUMN ', @veerunimi)
+    END;
+
+    PRINT @sqltegevus;
+    EXEC (@sqltegevus);
+END;
+-- kutse
+EXEC muudatus 'add','guest','testVeerg1',int
+Select * from guest
+EXEC muudatus 'drop','guest','testVeerg1'
+```
+
+<img width="461" height="270" alt="{F040D45C-F5EA-447F-AA42-259284A00020}" src="https://github.com/user-attachments/assets/96817015-ff81-42e3-967c-848a7d64f156" />
+
+<img width="469" height="413" alt="{A61A7C97-4FF7-4A40-80A8-E65F705D7BC4}" src="https://github.com/user-attachments/assets/d2883845-0a91-4fc6-935f-9920e43b3347" />
+
+<img width="431" height="282" alt="{5A73AA66-2703-4B5D-968F-12447A6B2930}" src="https://github.com/user-attachments/assets/c0631ae3-c99b-408f-bcc7-4e821f8c61da" />
+
 
