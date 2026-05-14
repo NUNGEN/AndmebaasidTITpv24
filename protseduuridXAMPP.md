@@ -22,5 +22,16 @@ funktsioon otsi taht:
 <img width="985" height="521" alt="{5232C13B-A93B-4A88-A4A0-2A9D1EB1A1B1}" src="https://github.com/user-attachments/assets/ca256fcd-8282-4de1-9b8f-103447acf2bb" />
 
 
+Minimum ja maximum loome andmeid taabel protseduur
+<img width="1050" height="762" alt="{26265186-7F80-4AB1-BFDF-341E008881EA}" src="https://github.com/user-attachments/assets/c8e01f2a-04b5-4b85-9b6a-1f6d831b59dd" />
+
+<img width="1132" height="678" alt="{D2D9AEB6-DECD-422E-B2D6-2D3F3A3B3A35}" src="https://github.com/user-attachments/assets/ef278e76-10b6-4310-967f-9f18405f24e7" />
+
+Looma hing protseduur
+<img width="839" height="544" alt="{FD42B058-160D-4AF9-84AF-B84DAD13C3F9}" src="https://github.com/user-attachments/assets/26d61a69-c68f-4643-b23b-7a62f1cac0e6" />
+
+<img width="1489" height="946" alt="{71040BF0-C12C-4FD4-8A0E-54A4AA5E23D4}" src="https://github.com/user-attachments/assets/c7c91b99-3f69-40bf-bc5b-86ef1dd36583" />
+
+
 
 
