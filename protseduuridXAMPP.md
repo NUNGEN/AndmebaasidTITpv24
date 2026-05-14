@@ -15,5 +15,10 @@ protseduur mis küüsib uue loome andmeid tabelisse
 protseduur mis liisab loome
 <img width="1062" height="614" alt="{9797810D-C1DA-41D6-9264-479C57B3392D}" src="https://github.com/user-attachments/assets/995d7331-795a-429e-b5d7-478c2cd57ced" />
 
+funktsioon otsi taht:
+<img width="1131" height="596" alt="{98C4B380-3B03-46A2-816D-3FF3E6F57F14}" src="https://github.com/user-attachments/assets/11094f7e-346c-4d9f-8c02-a48140de02a5" />
+<img width="985" height="521" alt="{5232C13B-A93B-4A88-A4A0-2A9D1EB1A1B1}" src="https://github.com/user-attachments/assets/ca256fcd-8282-4de1-9b8f-103447acf2bb" />
+
+
 
 
