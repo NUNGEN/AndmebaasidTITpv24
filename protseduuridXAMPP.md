@@ -9,6 +9,8 @@ CREATE TABLE loomad(
 
 <img width="1480" height="570" alt="{32959FEA-704B-4078-B6A1-93FE553A3F44}" src="https://github.com/user-attachments/assets/93017693-c645-440c-8af6-e66dabbdb9b6" />
 
+<img width="1471" height="662" alt="{4FD67713-D6F0-4FCC-88E0-D07D525F8069}" src="https://github.com/user-attachments/assets/25ea0cff-fea7-4392-b792-407fa97cd5b8" />
+
 protseduur mis küüsib uue loome andmeid tabelisse
 <img width="906" height="577" alt="{78D1623C-ECF7-4559-A04D-BB418EBEF958}" src="https://github.com/user-attachments/assets/e496f69b-c364-486b-ac03-121ad0974dd1" />
 
