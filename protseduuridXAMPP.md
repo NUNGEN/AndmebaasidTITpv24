@@ -6,3 +6,11 @@ CREATE TABLE loomad(
     synniAastal int)
 ```
 <img width="1025" height="194" alt="{E13F2B36-9FFB-4F72-B1AB-2F6CE79594DB}" src="https://github.com/user-attachments/assets/6639a4db-2e6a-4832-84ab-35217d23bef5" />
+
+<img width="1480" height="570" alt="{32959FEA-704B-4078-B6A1-93FE553A3F44}" src="https://github.com/user-attachments/assets/93017693-c645-440c-8af6-e66dabbdb9b6" />
+
+
+<img width="906" height="577" alt="{78D1623C-ECF7-4559-A04D-BB418EBEF958}" src="https://github.com/user-attachments/assets/e496f69b-c364-486b-ac03-121ad0974dd1" />
+
+protseduur mis küüsib uue  loome andmeid tabelisse
+
