@@ -29,9 +29,11 @@ DENY DELETE ON loomad TO DirektorNV;
 <img width="559" height="578" alt="{FD32624D-051A-4425-9890-2FA973BDD64B}" src="https://github.com/user-attachments/assets/abccd5b2-c917-4a74-86a1-fe07ca431a26" />
 
 operatsioon on keelatud sest direktoril pole piisavalt õigusi
+
 <img width="717" height="579" alt="{DA9F5174-A821-48F8-8D52-749EA63328CD}" src="https://github.com/user-attachments/assets/1421b7c4-32c4-4b60-bd7d-6ed645613440" />
 
-operatsioon on keelatud sest direktoril pole piisavalt õigusi 
+operatsioon on keelatud sest direktoril pole piisavalt õigusi
+
 <img width="491" height="584" alt="{4EACE41A-0627-47E2-A6A0-D2F5E99FA1DA}" src="https://github.com/user-attachments/assets/8799d22d-d790-47d8-be93-c8833fea4e81" />
 
 <img width="533" height="654" alt="{A61D4A41-249E-4706-AA9D-862EE3334FF4}" src="https://github.com/user-attachments/assets/25b0347a-6736-45c8-b525-ec98949ced9b" />
