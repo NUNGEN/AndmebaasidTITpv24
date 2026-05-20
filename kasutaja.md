@@ -13,3 +13,4 @@ GRANT INSERT ON loomad TO DirektorNV;
 GRANT SELECT, INSERT ON loomad TO DirektorNV;
 DENY DELETE ON loomad TO DirektorNV;
 ```
+<img width="663" height="846" alt="{8A7229F3-B6D4-4473-A6D9-E2D3DFDD030F}" src="https://github.com/user-attachments/assets/cc3bf6b9-ab45-4bf3-a79c-1906e477dad0" />
