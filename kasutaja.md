@@ -11,4 +11,5 @@ SELECT * FROM loomad;
 GRANT SELECT ON loomad TO DirektorNV;
 GRANT INSERT ON loomad TO DirektorNV;
 GRANT SELECT, INSERT ON loomad TO DirektorNV;
-```DENY DELETE ON loomad TO DirektorNV;
+DENY DELETE ON loomad TO DirektorNV;
+```
