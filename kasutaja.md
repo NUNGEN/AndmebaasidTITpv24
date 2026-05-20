@@ -1,6 +1,6 @@
 
 
-<img width="945" height="672" alt="image" src="https://github.com/user-attachments/assets/049a1fe1-1c7b-4085-b25a-f5ca34300eb1" />
+<img width="777" height="958" alt="{DE56D432-2DC7-426C-AB57-8BF0D37FB371}" src="https://github.com/user-attachments/assets/7d200680-e3df-422a-8218-767ee225b04c" />
 
 ```CREATE DATABASE kasutajaTITpv24;
 USE kasutajaTITpv24;
